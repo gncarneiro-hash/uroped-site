@@ -136,8 +136,8 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 170px;
-  padding: 10px 0;
+  min-height: 320px;
+  padding: 14px 0;
 }
 
 .brand-logo {
@@ -148,7 +148,7 @@ a:hover {
 }
 
 .brand-logo-img {
-  height: 152px;
+  height: 300px;
   width: auto;
   max-width: 100%;
   object-fit: contain;
@@ -161,13 +161,23 @@ a:hover {
   transform: scale(1.02);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 860px) {
   .nav-content {
-    min-height: 140px;
-    padding: 8px 0;
+    min-height: 260px;
+    padding: 12px 0;
   }
   .brand-logo-img {
-    height: 124px;
+    height: 240px;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-content {
+    min-height: 220px;
+    padding: 10px 0;
+  }
+  .brand-logo-img {
+    height: 200px;
   }
 }
 
