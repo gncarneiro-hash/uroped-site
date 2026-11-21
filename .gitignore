@@ -5,3 +5,4 @@
 crm/*
 !crm/atendimentos-modelo.csv
 fotos/buracao-familia.jpg
+testar-chave.sh
