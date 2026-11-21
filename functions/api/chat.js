@@ -142,7 +142,7 @@ async function atender({ request, env }) {
 
   if (!r.ok) {
     const det = (await r.text()).slice(0, 200);
-    return json({ erro: "O assistente está indisponível agora. Fale com a clínica pelo WhatsApp.", detalhe: "API " + r.status + " " + det }, 502);
+    return json({ erro: "O assistente está indisponível agora. Fale com a clínica pelo WhatsApp.", detalhe: "API " + r.status + " " + det, chave: (function(k){k=String(k||"");var c=k.replace(/[^\x21-\x7E]/g,"");return c.slice(0,11)+"… tam "+c.length+" (bruto "+k.length+")";})(env.ANTHROPIC_API_KEY) }, 502);
   }
   const data = await r.json();
   const texto = (data.content || []).filter((c) => c.type === "text").map((c) => c.text).join("\n").trim();
