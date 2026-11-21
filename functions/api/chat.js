@@ -24,9 +24,15 @@ function limpar(obj) {
 }
 
 async function lerAsset(env, request, caminho, tipo = "json") {
-  const r = await env.ASSETS.fetch(new URL(caminho, request.url));
-  if (!r.ok) return null;
-  return tipo === "json" ? r.json() : r.text();
+  try {
+    const url = new URL(caminho, request.url).toString();
+    const r = env.ASSETS && env.ASSETS.fetch ? await env.ASSETS.fetch(url) : await fetch(url);
+    if (!r.ok) return null;
+    const txt = await r.text();
+    return tipo === "json" ? JSON.parse(txt) : txt;
+  } catch (e) {
+    return null;
+  }
 }
 
 async function montarSistema(env, request) {
@@ -83,7 +89,15 @@ const json = (obj, status = 200) =>
     headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" },
   });
 
-export async function onRequestPost({ request, env }) {
+export async function onRequestPost(ctx) {
+  try {
+    return await atender(ctx);
+  } catch (e) {
+    return json({ erro: "O assistente está indisponível agora. Fale com a clínica pelo WhatsApp.", detalhe: String(e && e.message || e).slice(0, 200) }, 500);
+  }
+}
+
+async function atender({ request, env }) {
   if (!env.ANTHROPIC_API_KEY) {
     return json({ erro: "Assistente ainda não configurado." }, 503);
   }
@@ -91,7 +105,9 @@ export async function onRequestPost({ request, env }) {
   // Só aceita chamadas do próprio site
   const origem = request.headers.get("origin") || "";
   const host = new URL(request.url).host;
-  if (origem && new URL(origem).host !== host) return json({ erro: "Origem não permitida." }, 403);
+  let hostOrigem = "";
+  try { hostOrigem = origem ? new URL(origem).host : ""; } catch { hostOrigem = "invalido"; }
+  if (origem && hostOrigem !== host) return json({ erro: "Origem não permitida." }, 403);
 
   let corpo;
   try { corpo = await request.json(); } catch { return json({ erro: "Requisição inválida." }, 400); }
@@ -125,7 +141,8 @@ export async function onRequestPost({ request, env }) {
   });
 
   if (!r.ok) {
-    return json({ erro: "O assistente está indisponível agora. Fale com a clínica pelo WhatsApp." }, 502);
+    const det = (await r.text()).slice(0, 200);
+    return json({ erro: "O assistente está indisponível agora. Fale com a clínica pelo WhatsApp.", detalhe: "API " + r.status + " " + det }, 502);
   }
   const data = await r.json();
   const texto = (data.content || []).filter((c) => c.type === "text").map((c) => c.text).join("\n").trim();
