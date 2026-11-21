@@ -136,7 +136,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 94px;
+  min-height: 170px;
   padding: 10px 0;
 }
 
@@ -148,7 +148,7 @@ a:hover {
 }
 
 .brand-logo-img {
-  height: 76px;
+  height: 152px;
   width: auto;
   max-width: 100%;
   object-fit: contain;
@@ -163,11 +163,11 @@ a:hover {
 
 @media (max-width: 600px) {
   .nav-content {
-    min-height: 80px;
+    min-height: 140px;
     padding: 8px 0;
   }
   .brand-logo-img {
-    height: 62px;
+    height: 124px;
   }
 }
 
