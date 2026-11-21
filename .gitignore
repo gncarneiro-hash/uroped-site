@@ -1,2 +1,6 @@
 .DS_Store
 *.tmp
+
+# Dados reais do CRM nunca vão para o GitHub (repositório público)
+crm/*
+!crm/atendimentos-modelo.csv

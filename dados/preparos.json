@@ -1,0 +1,68 @@
+{
+  "_sobre": "Orientações de preparo que o assistente pode repetir. TODO texto precisa ser escrito/aprovado pelo Dr. Gabriel antes de publicar. aprovado=false = não usar.",
+  "exames": [
+    {
+      "exame": "Ultrassom de rins e vias urinárias",
+      "preparo": null,
+      "aprovado": false
+    },
+    {
+      "exame": "Ultrassom de próstata via abdominal",
+      "preparo": null,
+      "aprovado": false
+    },
+    {
+      "exame": "Ultrassom de próstata via transretal",
+      "preparo": null,
+      "aprovado": false
+    },
+    {
+      "exame": "Ultrassom da região inguinal",
+      "preparo": null,
+      "aprovado": false
+    },
+    {
+      "exame": "Ultrassom da bolsa testicular (escrotal)",
+      "preparo": null,
+      "aprovado": false
+    },
+    {
+      "exame": "Estudo urodinâmico",
+      "preparo": [
+        "Pacientes idosos devem vir acompanhados."
+      ],
+      "aprovado": true,
+      "aprovado_por": "Dr. Gabriel, 21/11/2026"
+    },
+    {
+      "exame": "Urofluxometria",
+      "preparo": null,
+      "aprovado": false
+    },
+    {
+      "exame": "Cistoscopia",
+      "preparo": null,
+      "aprovado": false
+    },
+    {
+      "exame": "Biópsia de próstata",
+      "preparo": [
+        "Jejum: 8 horas sem alimentos sólidos e 6 horas sem líquidos antes do exame.",
+        "Venha acompanhado: para voltar para casa depois do exame, o paciente precisa estar com um acompanhante.",
+        "Se você usa remédio para afinar o sangue (anticoagulante ou antiagregante), avise antes. A suspensão só deve ser feita com orientação do médico que acompanha você. Não pare o remédio por conta própria.",
+        "O exame é feito com anestesia local e guiado por ultrassom.",
+        "Os exames pré-procedimento são solicitados pelo médico antes da biópsia; faça-os conforme orientado."
+      ],
+      "aprovado": true,
+      "o_que_esta_incluso": [
+        "Coleta do material (biópsia)",
+        "Análise do material em laboratório credenciado (CEDAPI — Centro Diagnóstico Pires, Feira de Santana)",
+        "Acompanhamento pelo médico que fez a biópsia; em caso de intercorrência, contato pelo telefone fornecido",
+        "Retorno pós-biópsia para mostrar o resultado"
+      ],
+      "aprovado_por": "Dr. Gabriel, 21/11/2026",
+      "quem_pode_fazer": "Pacientes do Dr. Gabriel e pacientes encaminhados por outros médicos (traga o pedido médico).",
+      "sobre": "A biópsia é realizada seguindo as recomendações mais recentes da American Urological Association (AUA) e da European Association of Urology (EAU)."
+    }
+  ]
+}

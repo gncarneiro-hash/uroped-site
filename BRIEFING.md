@@ -220,3 +220,9 @@ Consulta pediátrica `[PENDENTE]`. Convênios aceitos na Uroderma `[PENDENTE lis
 - [x] Foto oficial da Dra. Narcisa: `fotos/dra-narcisa.jpg` (446×450 — trocar pelo arquivo original em alta resolução quando possível)
 - [ ] Logos das clínicas (pedir o arquivo PNG/SVG e a autorização a cada clínica; salvar em `logos/`)
 - [x] Tipo de consulta da Dra. Narcisa: Puericultura, incentivo ao aleitamento materno, introdução alimentar e recém-nascido/prematuro
+
+---
+
+## Atualizações posteriores (21/11/2026, noite)
+Ver **`docs/atualizacoes-21-11-noite.md`**: funcionamento por ordem de chegada (8h30/14h, 20–30 vagas), valores (consulta R$ 350; Cocos R$ 380; cistoscopia flexível e urodinâmica R$ 1.000; biópsia R$ 1.500; pediatria R$ 400 Lapa / R$ 300 Paratinga), biópsia completa, cirurgias, SUS, nomes oficiais (Uro·Derma, Clivale Med, Climefi, Cárdenas Marin) e pendências.
+Dados para o site e o assistente: `dados/precos.json`, `dados/preparos.json`, `dados/orientacoes-faq.json`. Mapa interativo: `mapa.html`. Assistente/CRM: `docs/crm-assistente.md`, `assistente/instrucoes.md`.

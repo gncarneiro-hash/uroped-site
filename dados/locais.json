@@ -145,7 +145,7 @@
         "Ultrassom",
         "Urofluxometria",
         "Estudo urodinâmico",
-        "Cistoscopia",
+        "Cistoscopia (rígida e flexível)",
         "Biópsia de próstata",
         "Pequenos procedimentos"
       ],
@@ -169,7 +169,8 @@
         "wa": "557798049628",
         "_obs": "confirmar se falta o 9 inicial: (77) 9 9804-9628"
       },
-      "logo": null
+      "logo": "logos/clinicas/uroderma-lapa.jpg",
+      "nome_exibicao": "Uro·Derma"
     },
     {
       "medico": "gabriel",
@@ -201,7 +202,7 @@
     {
       "medico": "gabriel",
       "cidade": "Paratinga",
-      "clinica": "Clivale",
+      "clinica": "Clivale Med",
       "tipo": "consulta",
       "endereco": null,
       "maps": null,
@@ -218,12 +219,17 @@
         "nivel": "fixo",
         "destaque": true
       },
-      "logo": null,
+      "logo": "logos/clinicas/clivale-med-paratinga.jpg",
       "whatsapp": {
         "exibicao": "(77) 9920-1219",
         "wa": "557799201219",
         "_obs": "confirmar 9 inicial"
-      }
+      },
+      "servicos": [
+        "Consulta",
+        "Cistoscopia flexível",
+        "Biópsia de próstata"
+      ]
     },
     {
       "medico": "gabriel",
@@ -254,7 +260,7 @@
     {
       "medico": "gabriel",
       "cidade": "Santa Maria da Vitória",
-      "clinica": "Climef",
+      "clinica": "Climefi",
       "tipo": "consulta e cirurgia",
       "endereco": null,
       "maps": null,
@@ -270,18 +276,22 @@
         "nivel": "fixo",
         "destaque": true
       },
-      "logo": null,
+      "logo": "logos/clinicas/climefi-santa-maria-da-vitoria.jpg",
       "whatsapp": {
         "exibicao": "(77) 9841-3648",
         "wa": "557798413648",
         "_obs": "confirmar 9 inicial"
       },
-      "_obs_nome": "confirmar grafia: Climef ou Climefe"
+      "servicos": [
+        "Consulta",
+        "Cistoscopia flexível",
+        "Biópsia de próstata"
+      ]
     },
     {
       "medico": "gabriel",
       "cidade": "Cocos",
-      "clinica": "Climef",
+      "clinica": "Climefi",
       "tipo": "consulta",
       "endereco": null,
       "maps": null,
@@ -301,12 +311,16 @@
         "wa": "557791538953",
         "_obs": "confirmar 9 inicial"
       },
-      "_obs_nome": "confirmar grafia: Climef ou Climefe"
+      "servicos": [
+        "Consulta",
+        "Cistoscopia flexível",
+        "Biópsia de próstata"
+      ]
     },
     {
       "medico": "gabriel",
       "cidade": "Santana",
-      "clinica": "Centro Médico Cárdenas Marín",
+      "clinica": "Centro Médico Cárdenas Marin",
       "tipo": "consulta",
       "endereco": null,
       "maps": null,
@@ -318,13 +332,16 @@
         "nivel": "mensal",
         "destaque": true
       },
-      "logo": null,
-      "_obs_nome": "grafia informada: \"cardenas marin\" — confirmar acentos (Cárdenas Marín)",
+      "logo": "logos/clinicas/cardenas-marin-santana.jpg",
       "whatsapp": {
         "exibicao": "(77) 8142-8514",
         "wa": "557781428514",
         "_obs": "confirmar 9 inicial"
-      }
+      },
+      "servicos": [
+        "Consulta",
+        "Biópsia de próstata"
+      ]
     },
     {
       "medico": "gabriel",
@@ -346,7 +363,11 @@
         "exibicao": "(77) 9162-1963",
         "wa": "557791621963",
         "_obs": "confirmar 9 inicial"
-      }
+      },
+      "servicos": [
+        "Consulta",
+        "Biópsia de próstata"
+      ]
     },
     {
       "medico": "gabriel",
@@ -373,7 +394,12 @@
         "exibicao": "(77) 9865-4077",
         "wa": "557798654077",
         "_obs": "confirmar 9 inicial"
-      }
+      },
+      "servicos": [
+        "Consulta",
+        "Cistoscopia flexível",
+        "Biópsia de próstata"
+      ]
     },
     {
       "medico": "gabriel",
@@ -441,12 +467,16 @@
         "destaque": true
       },
       "endereco_fonte": "cadastro CNES via bula.com.br (a confirmar)",
-      "logo": null,
+      "logo": "logos/clinicas/clinica-vida-riacho-de-santana.jpg",
       "whatsapp": {
         "exibicao": "(77) 9951-5049",
         "wa": "557799515049",
         "_obs": "confirmar 9 inicial"
-      }
+      },
+      "servicos": [
+        "Consulta",
+        "Cistoscopia flexível"
+      ]
     },
     {
       "medico": "gabriel",
@@ -470,7 +500,12 @@
         "exibicao": "(77) 9999-9495",
         "wa": "557799999495",
         "_obs": "confirmar 9 inicial"
-      }
+      },
+      "servicos": [
+        "Consulta",
+        "Cistoscopia flexível",
+        "Biópsia de próstata"
+      ]
     },
     {
       "medico": "gabriel",
@@ -565,12 +600,12 @@
     {
       "medico": "narcisa",
       "cidade": "Paratinga",
-      "clinica": "Clivale",
+      "clinica": "Clivale Med",
       "tipo": "consulta",
       "endereco": null,
       "maps": null,
       "agenda": null,
-      "logo": null,
+      "logo": "logos/clinicas/clivale-med-paratinga.jpg",
       "whatsapp": {
         "exibicao": "(77) 9920-1219",
         "wa": "557799201219",
@@ -643,5 +678,6 @@
   "consulta_pediatrica": {
     "valor": null
   },
-  "convenios_uroderma": null
+  "convenios_uroderma": null,
+  "_ver_tambem": "Valores, preparos e FAQ: dados/precos.json, dados/preparos.json, dados/orientacoes-faq.json"
 }

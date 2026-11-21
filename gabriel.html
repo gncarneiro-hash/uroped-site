@@ -32,7 +32,7 @@
   <header class="main-header">
     <div class="container nav-content">
       <a href="index.html" class="brand-logo" aria-label="Voltar para início">
-        <img src="logos/uroped-logo.png" alt="Logomarca Uroped" class="brand-logo-img">
+        <img src="logos/uroped-logo-transparente.png" alt="Logomarca Uroped" class="brand-logo-img">
       </a>
 
       <nav class="nav-links">
@@ -212,7 +212,7 @@
   <footer class="footer-corporate">
     <div class="container">
       <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 24px;">
-        <a href="index.html"><img src="logos/uroped-logo.png" alt="Uroped Especialidades" style="height: 76px; border-radius: 10px; background: #fff; padding: 6px; display: block;"></a>
+        <a href="index.html"><img src="logos/uroped-logo-transparente.png" alt="Uroped Especialidades" style="height: 76px; border-radius: 10px; background: #fff; padding: 6px; display: block;"></a>
         <a href="narcisa.html" style="color: #D6F1F5;">Conheça a Dra. Narcisa (Pediatria) →</a>
       </div>
       <div class="footer-cfm-compliance" style="padding-top: 20px;">
@@ -232,20 +232,21 @@
 
 <script>
 const GABRIEL_DATA = [
-  { cidade: "Bom Jesus da Lapa", clinica: "Clínica Uroderma (Polo Principal)", wa: "557798049628", data: "[dd/mm] · [horário]", maps: "https://maps.google.com/?q=Clinica+Uroderma+Bom+Jesus+da+Lapa" },
-  { cidade: "Bom Jesus da Lapa", clinica: "Clínica Vila Rica", wa: "557791980895", data: "[dd/mm] · [horário]", maps: "https://maps.google.com/?q=Clinica+Vila+Rica+Bom+Jesus+da+Lapa" },
-  { cidade: "Correntina", clinica: "Climec (Principal em Correntina)", wa: "557798654077", data: "[dd/mm] · [horário]", maps: "https://maps.google.com/?q=Climec+Correntina" },
-  { cidade: "Correntina", clinica: "Clínica Pedro Guerra", wa: "557798455316", data: "[dd/mm] · [horário]", maps: "https://maps.google.com/?q=Clinica+Pedro+Guerra+Correntina" },
-  { cidade: "Correntina", clinica: "Clínica Vida e Saúde", wa: "557798444004", data: "[dd/mm] · [horário]", maps: "https://maps.google.com/?q=Clinica+Vida+e+Saude+Correntina" },
-  { cidade: "Santa Maria da Vitória", clinica: "Climef", wa: "557798413648", data: "[dd/mm] · [horário]", maps: "https://maps.google.com/?q=Climef+Santa+Maria+da+Vitoria" },
-  { cidade: "Paratinga", clinica: "Clivale", wa: "557799201219", data: "[dd/mm] · [horário]", maps: "https://maps.google.com/?q=Clivale+Paratinga" },
-  { cidade: "Serra do Ramalho", clinica: "Clínica Vila Rica", wa: "557791862121", data: "[dd/mm] · [horário]", maps: "https://maps.google.com/?q=Clinica+Vila+Rica+Serra+do+Ramalho" },
-  { cidade: "Riacho de Santana", clinica: "Clínica Vida", wa: "557799515049", data: "[dd/mm] · [horário]", maps: "https://maps.google.com/?q=Clinica+Vida+Riacho+de+Santana" },
-  { cidade: "Cocos", clinica: "Climef", wa: "557791538953", data: "[dd/mm] · [horário]", maps: "https://maps.google.com/?q=Climef+Cocos" },
-  { cidade: "Santana", clinica: "Centro Médico Cárdenas Marim", wa: "557798049628", data: "[dd/mm] · [horário]", maps: "https://maps.google.com/?q=Centro+Medico+Cardenas+Marim+Santana" },
-  { cidade: "Serra Dourada", clinica: "Clínica Vilas Boas", wa: "557798049628", data: "[dd/mm] · [horário]", maps: "https://maps.google.com/?q=Clinica+Vilas+Boas+Serra+Dourada" },
-  { cidade: "Macaúbas", clinica: "Laboratório Pesquisa", wa: "557799999495", data: "[dd/mm] · [horário]", maps: "https://maps.google.com/?q=Laboratorio+Pesquisa+Macaubas" },
-  { cidade: "Botuporã", clinica: "Laboratório MedLab", wa: "557798049628", data: "[dd/mm] · [horário]", maps: "https://maps.google.com/?q=Laboratorio+MedLab+Botupora" }
+  { cidade: "Bom Jesus da Lapa", clinica: "Clínica Uroderma (Polo Principal)", wa: "5577998049628", frequencia: "Toda terça e quinta-feira", data: "24/11, 26/11, 01/12", maps: "https://maps.google.com/?q=Av.+Agenor+de+Oliveira+Magalhaes+671+Bom+Jesus+da+Lapa" },
+  { cidade: "Bom Jesus da Lapa", clinica: "Clínica Vila Rica", wa: "5577991980895", frequencia: "Segunda-feira, a cada 15 dias", data: "23/11, 07/12, 21/12", maps: "https://maps.google.com/?q=Clinica+Vila+Rica+Bom+Jesus+da+Lapa" },
+  { cidade: "Correntina", clinica: "Climec (Principal em Correntina)", wa: "5577998654077", frequencia: "Sexta-feira, a cada 15 dias", data: "04/12, 18/12", maps: "https://maps.google.com/?q=Climec+Correntina" },
+  { cidade: "Correntina", clinica: "Clínica Pedro Guerra", wa: "5577998455316", frequencia: "Sexta-feira, cerca de 1x por mês", data: "11/12", maps: "https://maps.google.com/?q=Clinica+Pedro+Guerra+Correntina" },
+  { cidade: "Correntina", clinica: "Clínica Vida e Saúde", wa: "5577998444004", frequencia: "Sexta-feira, cerca de 1x por mês", data: "Sob consulta na clínica", maps: "https://maps.google.com/?q=Clinica+Vida+e+Saude+Correntina" },
+  { cidade: "Santa Maria da Vitória", clinica: "Climefi", wa: "5577998413648", frequencia: "Sexta-feira à tarde, a cada 15 dias", data: "04/12, 11/12, 25/12", maps: "https://maps.google.com/?q=Climef+Santa+Maria+da+Vitoria" },
+  { cidade: "Paratinga", clinica: "Clivale Med", wa: "5577999201219", frequencia: "Segunda-feira, a cada 15 dias", data: "30/11, 03/12, 14/12", maps: "https://maps.google.com/?q=Clivale+Paratinga" },
+  { cidade: "Serra do Ramalho", clinica: "Clínica Vila Rica", wa: "5577991862121", frequencia: "Segunda-feira, a cada 15 dias", data: "30/11, 10/12, 21/12", maps: "https://maps.google.com/?q=Clinica+Vila+Rica+Serra+do+Ramalho" },
+  { cidade: "Riacho de Santana", clinica: "Clínica Vida", wa: "5577999515049", frequencia: "Quinta-feira, 1 a 2x por mês", data: "26/11", maps: "https://maps.google.com/?q=Clinica+Vida+Riacho+de+Santana" },
+  { cidade: "Cocos", clinica: "Climefi", wa: "5577991538953", frequencia: "Sábado, 1 vez por mês", data: "05/12", maps: "https://maps.google.com/?q=Climef+Cocos" },
+  { cidade: "Santana", clinica: "Centro Médico Cárdenas Marin", wa: "557781428514", frequencia: "Quinta ou sexta, cerca de 1x por mês", data: "Sob consulta na clínica", maps: "https://maps.google.com/?q=Centro+Medico+Cardenas+Marim+Santana" },
+  { cidade: "Serra Dourada", clinica: "Clínica Vilas Boas", wa: "557791621963", frequencia: "Quinta ou sexta, cerca de 1x por mês", data: "Sob consulta na clínica", maps: "https://maps.google.com/?q=Clinica+Vilas+Boas+Serra+Dourada" },
+  { cidade: "Macaúbas", clinica: "Laboratório Pesquisa", wa: "5577999999495", frequencia: "Eventual, aos sábados", data: "12/12", maps: "https://maps.google.com/?q=Laboratorio+Pesquisa+Macaubas" },
+  { cidade: "Botuporã", clinica: "Laboratório MedLab", wa: "5577991713384", frequencia: "Eventual", data: "Sob consulta na clínica", maps: "https://maps.google.com/?q=Laboratorio+MedLab+Botupora" },
+  { cidade: "Caetité", clinica: "Fundação Hospital Senhora Santana", wa: "5577999418816", frequencia: "Cirurgias às quartas, a cada 15 dias", data: "02/12, 16/12, 30/12", maps: "https://maps.google.com/?q=Hospital+Senhora+Santana+Caetite" }
 ];
 
 let gabrielCity = "todas";
@@ -283,7 +284,10 @@ function renderGabrielList() {
     row.innerHTML = `
       <div>
         <div style="font-weight: 700; font-size: 15px; color: var(--text-title);">${item.cidade} — ${item.clinica}</div>
-        <div style="font-size: 13px; color: var(--text-muted); margin-top: 2px;">Próximo atendimento: <strong>${item.data}</strong></div>
+        <div style="font-size: 13px; color: var(--text-muted); margin-top: 2px;">
+          <span><strong>Frequência:</strong> ${item.frequencia}</span> · 
+          <span>Próximas datas: <strong>${item.data}</strong></span>
+        </div>
       </div>
       <div style="display: flex; gap: 8px;">
         <a href="${item.maps}" target="_blank" rel="noopener" class="btn-unit-maps" style="padding: 0 14px; font-size: 12px;">Como chegar</a>

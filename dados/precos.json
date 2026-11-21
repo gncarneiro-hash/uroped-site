@@ -1,0 +1,552 @@
+{
+  "_sobre": "Valores por clínica. Prioridade do CRM: consulta em cada clínica. null = pendente. Exames/procedimentos: só Uroderma.",
+  "atualizado_em": "2026-11-21",
+  "urologia": {
+    "local_padrao": "Clínica Uroderma — Bom Jesus da Lapa",
+    "consultas": [
+      {
+        "cidade": "Bom Jesus da Lapa",
+        "clinica": "Clínica Uroderma",
+        "consulta": 350,
+        "retorno": {
+          "incluso": true,
+          "prazo": "geralmente de 30 a 60 dias (a confirmar com a clínica)"
+        },
+        "convenio": true
+      },
+      {
+        "cidade": "Bom Jesus da Lapa",
+        "clinica": "Clínica Vila Rica",
+        "consulta": 350,
+        "retorno": {
+          "incluso": true,
+          "prazo": "geralmente de 30 a 60 dias (a confirmar com a clínica)"
+        },
+        "convenio": false
+      },
+      {
+        "cidade": "Serra do Ramalho",
+        "clinica": "Clínica Vila Rica",
+        "consulta": 350,
+        "retorno": {
+          "incluso": true,
+          "prazo": "geralmente de 30 a 60 dias (a confirmar com a clínica)"
+        },
+        "convenio": false
+      },
+      {
+        "cidade": "Paratinga",
+        "clinica": "Clivale Med",
+        "consulta": 350,
+        "retorno": {
+          "incluso": true,
+          "prazo": "geralmente de 30 a 60 dias (a confirmar com a clínica)"
+        },
+        "convenio": false
+      },
+      {
+        "cidade": "Correntina",
+        "clinica": "Climec",
+        "consulta": 350,
+        "retorno": {
+          "incluso": true,
+          "prazo": "geralmente de 30 a 60 dias (a confirmar com a clínica)"
+        },
+        "convenio": false
+      },
+      {
+        "cidade": "Correntina",
+        "clinica": "Clínica Pedro Guerra",
+        "consulta": 350,
+        "retorno": {
+          "incluso": true,
+          "prazo": "geralmente de 30 a 60 dias (a confirmar com a clínica)"
+        },
+        "convenio": false
+      },
+      {
+        "cidade": "Correntina",
+        "clinica": "Clínica Vida e Saúde",
+        "consulta": 350,
+        "retorno": {
+          "incluso": true,
+          "prazo": "geralmente de 30 a 60 dias (a confirmar com a clínica)"
+        },
+        "convenio": false
+      },
+      {
+        "cidade": "Santa Maria da Vitória",
+        "clinica": "Climef",
+        "consulta": 350,
+        "retorno": {
+          "incluso": true,
+          "prazo": "geralmente de 30 a 60 dias (a confirmar com a clínica)"
+        },
+        "convenio": false
+      },
+      {
+        "cidade": "Cocos",
+        "clinica": "Climef",
+        "consulta": 380,
+        "retorno": {
+          "incluso": true,
+          "prazo": "geralmente de 30 a 60 dias (a confirmar com a clínica)"
+        },
+        "convenio": false
+      },
+      {
+        "cidade": "Riacho de Santana",
+        "clinica": "Clínica Vida",
+        "consulta": 350,
+        "retorno": {
+          "incluso": true,
+          "prazo": "geralmente de 30 a 60 dias (a confirmar com a clínica)"
+        },
+        "convenio": false
+      },
+      {
+        "cidade": "Santana",
+        "clinica": "Centro Médico Cárdenas Marín",
+        "consulta": 350,
+        "retorno": {
+          "incluso": true,
+          "prazo": "geralmente de 30 a 60 dias (a confirmar com a clínica)"
+        },
+        "convenio": false
+      },
+      {
+        "cidade": "Serra Dourada",
+        "clinica": "Clínica Vilas Boas",
+        "consulta": 350,
+        "retorno": {
+          "incluso": true,
+          "prazo": "geralmente de 30 a 60 dias (a confirmar com a clínica)"
+        },
+        "convenio": false
+      },
+      {
+        "cidade": "Macaúbas",
+        "clinica": "Laboratório Pesquisa",
+        "consulta": null,
+        "retorno": {
+          "incluso": true,
+          "prazo": "geralmente de 30 a 60 dias (a confirmar com a clínica)"
+        },
+        "convenio": false,
+        "_obs": "R$ 300 informado, mas a confirmar — não publicar até confirmar"
+      },
+      {
+        "cidade": "Botuporã",
+        "clinica": "Laboratório MedLab",
+        "consulta": 350,
+        "retorno": {
+          "incluso": true,
+          "prazo": "geralmente de 30 a 60 dias (a confirmar com a clínica)"
+        },
+        "convenio": false
+      }
+    ],
+    "exames": [
+      {
+        "nome": "Ultrassom de rins e vias urinárias",
+        "tipo": "fixo",
+        "valor": null
+      },
+      {
+        "nome": "Ultrassom de próstata via abdominal",
+        "tipo": "fixo",
+        "valor": null
+      },
+      {
+        "nome": "Ultrassom de próstata via transretal",
+        "tipo": "fixo",
+        "valor": null
+      },
+      {
+        "nome": "Ultrassom da região inguinal",
+        "tipo": "fixo",
+        "valor": null
+      },
+      {
+        "nome": "Ultrassom da bolsa testicular (escrotal)",
+        "tipo": "fixo",
+        "valor": null
+      },
+      {
+        "nome": "Estudo urodinâmico",
+        "tipo": "fixo",
+        "valor": 1000,
+        "locais": [
+          "Uroderma (Bom Jesus da Lapa)"
+        ],
+        "publico": "homens e mulheres"
+      },
+      {
+        "nome": "Urofluxometria",
+        "tipo": "fixo",
+        "valor": null
+      },
+      {
+        "nome": "Cistoscopia convencional (rígida)",
+        "tipo": "fixo",
+        "valor": null
+      },
+      {
+        "nome": "Cistoscopia flexível",
+        "tipo": "fixo",
+        "valor": 1000,
+        "locais": [
+          "Uroderma (Bom Jesus da Lapa)",
+          "Climec (Correntina)",
+          "Climef (Santa Maria da Vitória)",
+          "Climef (Cocos)",
+          "Clínica Vida (Riacho de Santana)",
+          "Laboratório Pesquisa (Macaúbas)",
+          "Clivale (Paratinga)"
+        ],
+        "mesmo_valor_em_todas": true
+      }
+    ],
+    "procedimentos": [
+      {
+        "nome": "Biópsia de próstata",
+        "tipo": "fixo",
+        "valor": 1500,
+        "inclui": "coleta guiada por ultrassom com anestesia local, análise anatomopatológica em laboratório credenciado (CEDAPI — Centro Diagnóstico Pires, Feira de Santana), acompanhamento e retorno para o resultado",
+        "locais": [
+          "Uroderma (Bom Jesus da Lapa)",
+          "Clivale (Paratinga)",
+          "Climef (Santa Maria da Vitória)",
+          "Climef (Cocos)",
+          "Climec (Correntina)",
+          "Centro Médico Cárdenas Marín (Santana)",
+          "Clínica Vilas Boas (Serra Dourada)",
+          "Laboratório Pesquisa (Macaúbas)"
+        ]
+      },
+      {
+        "nome": "Pequenos procedimentos",
+        "tipo": "faixa",
+        "valor_a_partir_de": null,
+        "_obs": "listar quais"
+      }
+    ],
+    "cirurgias": [
+      {
+        "grupo": "Endoscópicas — cálculos urinários (principal área de atuação)",
+        "destaque": true,
+        "nome_popular": "Tratamento de pedra nos rins e no ureter sem cortes",
+        "procedimentos": [
+          "Ureterolitotripsia transureteroscópica (cálculo no ureter)",
+          "Nefrolitotripsia transureteroscópica (cálculo no rim, por via endoscópica)"
+        ],
+        "energia": [
+          "Laser",
+          "Litotridor balístico"
+        ],
+        "tipo": "faixa",
+        "valor_a_partir_de": null,
+        "locais": [
+          "Fundação Hospital Senhora Santana (Caetité)",
+          "Climef (Santa Maria da Vitória)"
+        ],
+        "modalidade": "particular"
+      },
+      {
+        "grupo": "Cirurgias de próstata",
+        "destaque": true,
+        "nome_popular": "Cirurgia de próstata",
+        "procedimentos": [
+          {
+            "nome": "Ressecção transuretral de próstata (RTU de próstata)",
+            "indicacao": "Hiperplasia benigna (próstata aumentada)",
+            "locais": [
+              "Fundação Hospital Senhora Santana (Caetité)",
+              "Climef (Santa Maria da Vitória)"
+            ]
+          },
+          {
+            "nome": "Prostatectomia transvesical",
+            "indicacao": "Hiperplasia benigna (próstata aumentada)",
+            "locais": [
+              "Fundação Hospital Senhora Santana (Caetité)",
+              "Climef (Santa Maria da Vitória)"
+            ]
+          },
+          {
+            "nome": "Prostatectomia radical aberta (convencional)",
+            "indicacao": "Câncer de próstata",
+            "locais": [
+              "Fundação Hospital Senhora Santana (Caetité)"
+            ]
+          },
+          {
+            "nome": "Prostatectomia radical robótica",
+            "indicacao": "Câncer de próstata",
+            "locais": [
+              "Hospital das Clínicas Dr. Mário Ribeiro da Silveira — Montes Claros (MG)"
+            ],
+            "fluxo": "Consulta e avaliação no consultório particular do Dr. Gabriel; encaminhamento para a cirurgia em Montes Claros."
+          }
+        ],
+        "tipo": "orcamento_apos_consulta",
+        "modalidade": "particular",
+        "texto_experiencia": "Ampla experiência em cirurgias de próstata."
+      },
+      {
+        "grupo": "Laparoscópicas",
+        "nome": null,
+        "tipo": "faixa",
+        "valor_a_partir_de": null,
+        "locais": [
+          "Fundação Hospital Senhora Santana (Caetité)",
+          "Climef (Santa Maria da Vitória)"
+        ],
+        "modalidade": "particular"
+      },
+      {
+        "grupo": "Minimamente invasivas",
+        "nome": null,
+        "tipo": "faixa",
+        "valor_a_partir_de": null,
+        "locais": [
+          "Fundação Hospital Senhora Santana (Caetité)",
+          "Climef (Santa Maria da Vitória)"
+        ],
+        "modalidade": "particular"
+      },
+      {
+        "grupo": "Saúde reprodutiva masculina",
+        "nome": "Vasectomia",
+        "tipo": null,
+        "valor": null,
+        "locais": [
+          "Uroderma (Bom Jesus da Lapa)",
+          "Climef (Santa Maria da Vitória)",
+          "Fundação Hospital Senhora Santana (Caetité)"
+        ],
+        "modalidade": "particular"
+      },
+      {
+        "grupo": "Saúde reprodutiva masculina",
+        "nome": "Reversão de vasectomia (vasovasoanastomose)",
+        "tipo": "faixa",
+        "valor_a_partir_de": null,
+        "locais": [
+          "Fundação Hospital Senhora Santana (Caetité)",
+          "Climef (Santa Maria da Vitória)"
+        ],
+        "modalidade": "particular"
+      },
+      {
+        "grupo": "Uroginecologia / assoalho pélvico",
+        "publicar": true,
+        "procedimentos": [
+          {
+            "nome": "Sling transobturatório",
+            "nome_popular": "Cirurgia de incontinência urinária (perda de urina)"
+          },
+          {
+            "nome": "Correção de prolapso vesical (cistocele)",
+            "nome_popular": "Bexiga caída"
+          },
+          {
+            "nome": "Correção de prolapso uterino",
+            "nome_popular": "Útero caído"
+          },
+          {
+            "nome": "Correção de prolapso retal",
+            "nome_popular": null
+          },
+          {
+            "nome": "Cirurgias de períneo (perineoplastia)",
+            "nome_popular": null
+          }
+        ],
+        "locais": [
+          "Fundação Hospital Senhora Santana (Caetité)",
+          "Climef (Santa Maria da Vitória)"
+        ],
+        "_obs": "confirmar locais"
+      },
+      {
+        "grupo": "Bolsa escrotal (adultos)",
+        "procedimentos": [
+          {
+            "nome": "Correção de hidrocele",
+            "nome_popular": "Água no saco / testículo inchado"
+          },
+          {
+            "nome": "Correção de varicocele",
+            "nome_popular": "Varizes no testículo"
+          }
+        ],
+        "locais": null
+      },
+      {
+        "grupo": "Cirurgia urológica em crianças",
+        "destaque": true,
+        "procedimentos": [
+          {
+            "nome": "Postectomia",
+            "nome_popular": "Cirurgia de fimose"
+          },
+          {
+            "nome": "Correção de hidrocele infantil",
+            "nome_popular": "Hidrocele em crianças"
+          },
+          {
+            "nome": "Hernioplastia inguinal infantil",
+            "nome_popular": "Hérnia na virilha em crianças"
+          },
+          {
+            "nome": "Orquidopexia (aberta e laparoscópica)",
+            "nome_popular": "Testículo que não desceu"
+          }
+        ],
+        "locais": [
+          "Fundação Hospital Senhora Santana (Caetité)",
+          "Climef (Santa Maria da Vitória)"
+        ],
+        "idade_minima": "a partir de 6 meses"
+      }
+    ],
+    "formas_de_pagamento": [
+      "Pix",
+      "Cartão de débito",
+      "Cartão de crédito",
+      "Parcelamento no cartão (nº de parcelas a confirmar)",
+      "Dinheiro"
+    ],
+    "sobre_consulta": "As consultas urológicas seguem as diretrizes mais recentes da Sociedade Brasileira de Urologia (SBU), da American Urological Association (AUA) e da European Association of Urology (EAU).",
+    "cirurgias_particulares_em": [
+      "Fundação Hospital Senhora Santana (Caetité)",
+      "Climef (Santa Maria da Vitória)"
+    ],
+    "atendimento_sus": {
+      "texto": "Além do atendimento particular, o Dr. Gabriel atende pelo SUS, como urologista e cirurgião geral, nas redes públicas de Bom Jesus da Lapa, Correntina e Riacho de Santana.",
+      "locais": [
+        {
+          "cidade": "Bom Jesus da Lapa",
+          "servico": "Hospital Municipal Carmela Dutra",
+          "inclui": "consultas e cirurgias"
+        },
+        {
+          "cidade": "Correntina",
+          "servico": "Rede Municipal de Saúde",
+          "inclui": null
+        },
+        {
+          "cidade": "Riacho de Santana",
+          "servico": "Rede Municipal de Saúde",
+          "inclui": "inclui cirurgias? confirmar local"
+        }
+      ],
+      "como_acessar": "O acesso pelo SUS é feito pela Unidade Básica de Saúde (posto de saúde) ou pela Secretaria Municipal de Saúde da sua cidade, por encaminhamento/regulação. Não é agendado pelo site nem pelo WhatsApp das clínicas particulares.",
+      "regra_assistente": "Se o paciente quiser atendimento pelo SUS, orientar a procurar a UBS ou a Secretaria de Saúde do município. Não encaminhar para o WhatsApp das clínicas particulares nem informar valores.",
+      "destaque": "baixo — seção informativa ao final da página, não é a primeira linha"
+    },
+    "funcionamento": {
+      "atendimento": "por ordem de chegada (não há horário marcado)",
+      "vagas_por_dia": "20 a 30 (consultas + retornos) por clínica/dia",
+      "motivo": "maioria dos pacientes vem da zona rural; horário marcado gera conflitos",
+      "inicio": {
+        "manha": "a partir das 8h30",
+        "tarde": "a partir das 14h"
+      },
+      "_obs": "qual turno em cada clínica: inferir da agenda (ex.: Climef SMV = tarde) e confirmar"
+    }
+  },
+  "pediatria": {
+    "consultas": [
+      {
+        "cidade": "Bom Jesus da Lapa",
+        "clinica": "Vila Rica Kids",
+        "consulta": 400,
+        "retorno": null
+      },
+      {
+        "cidade": "Bom Jesus da Lapa",
+        "clinica": "Odontomed",
+        "consulta": 400,
+        "retorno": null
+      },
+      {
+        "cidade": "Bom Jesus da Lapa",
+        "clinica": "Cemed",
+        "consulta": 400,
+        "retorno": null
+      },
+      {
+        "cidade": "Paratinga",
+        "clinica": "Clivale Med",
+        "consulta": 300,
+        "retorno": null
+      }
+    ],
+    "formas_de_pagamento": null,
+    "servicos": [
+      {
+        "nome": "Consulta de pediatria geral"
+      },
+      {
+        "nome": "Acompanhamento do recém-nascido prematuro (follow-up)"
+      },
+      {
+        "nome": "Teste do olhinho (reflexo vermelho)"
+      },
+      {
+        "nome": "Atendimento de urgência/emergência",
+        "_obs": "confirmar: onde e como (plantão? encaixe no consultório?)"
+      },
+      {
+        "nome": "Orientação sobre alimentação"
+      },
+      {
+        "nome": "Imunização (vacinas)",
+        "_obs": "confirmar: orientação do calendário vacinal ou aplicação na clínica?"
+      },
+      {
+        "nome": "Orientação sobre sono"
+      },
+      {
+        "nome": "Prevenção de acidentes"
+      }
+    ],
+    "fonte": "Dra. Narcisa (via Dr. Gabriel), 21/11/2026"
+  },
+  "compromisso": "Nosso atendimento segue o Código de Ética Médica e o Código de Defesa do Consumidor: informação clara, valores transparentes e respeito à sua privacidade e às suas decisões.",
+  "cirurgia_geral": {
+    "titulo": "Cirurgia Geral (RQE 8547)",
+    "cirurgias": [
+      {
+        "nome_popular": "Cirurgia de vesícula (pedra na vesícula)",
+        "nome": "Colecistectomia videolaparoscópica",
+        "locais": null,
+        "tipo": "orcamento_apos_consulta"
+      },
+      {
+        "nome_popular": "Cirurgia de hérnia na virilha",
+        "nome": "Hernioplastia inguinal",
+        "locais": null,
+        "tipo": "orcamento_apos_consulta"
+      },
+      {
+        "nome_popular": "Cirurgia de hérnia no umbigo",
+        "nome": "Hernioplastia umbilical",
+        "locais": null,
+        "tipo": "orcamento_apos_consulta"
+      }
+    ]
+  },
+  "cirurgias_ginecologicas": {
+    "publicar": "A DECIDIR — ver ressalva CFM",
+    "procedimentos": [
+      "Ooforectomia",
+      "Ligadura tubária (laqueadura) laparoscópica",
+      "Histerectomia",
+      "Histeroscopia diagnóstica e cirúrgica — Climefi (Santa Maria da Vitória); valor: orçamento após encaminhamento (confirmar que é histeroscopia)"
+    ],
+    "_ressalva": "Sem RQE em Ginecologia. Pela Resolução CFM 2.336/2023 a especialidade anunciada deve ter RQE; a pós em cirurgia ginecológica minimamente invasiva pode aparecer como formação. Sugestão: não listar como serviço no site/assistente sem consultar o CREMEB."
+  }
+}

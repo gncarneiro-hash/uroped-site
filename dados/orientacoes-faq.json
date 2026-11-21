@@ -1,0 +1,50 @@
+{
+  "_sobre": "Orientações gerais repetidas pelo assistente e mostradas no site. Aprovadas pelo Dr. Gabriel em 21/11/2026.",
+  "orientacoes_para_consulta": [
+    "O atendimento é por ordem de chegada: manhã a partir das 8h30, tarde a partir das 14h. Chegue cedo.",
+    "Idosos devem vir sempre acompanhados.",
+    "Traga documento com foto e cartão do plano (se for usar convênio na Uroderma).",
+    "Traga os exames anteriores (laudos e imagens).",
+    "Traga as receitas ou a lista dos remédios que você usa.",
+    "Se foi encaminhado por outro médico, traga o pedido/encaminhamento."
+  ],
+  "por_clinica_o_assistente_informa": [
+    "endereço",
+    "como chegar (link do Google Maps e ponto de referência)",
+    "telefone/WhatsApp",
+    "dias de atendimento",
+    "turno e horário de início",
+    "valor da consulta",
+    "exames e procedimentos feitos no local"
+  ],
+  "perguntas_frequentes": [
+    {
+      "p": "Precisa marcar horário?",
+      "r": "Não. O atendimento é por ordem de chegada. Agendar pelo WhatsApp garante sua vaga no dia."
+    },
+    {
+      "p": "Que horas começa?",
+      "r": "Manhã a partir das 8h30 e tarde a partir das 14h. Recomendamos chegar cedo."
+    },
+    {
+      "p": "O retorno é pago?",
+      "r": "Não. O retorno está incluso na consulta, geralmente entre 30 e 60 dias."
+    },
+    {
+      "p": "Quais formas de pagamento?",
+      "r": "Pix, cartão de débito, cartão de crédito (com parcelamento) e dinheiro."
+    },
+    {
+      "p": "Aceita convênio?",
+      "r": "Convênios apenas na Clínica Uroderma, em Bom Jesus da Lapa."
+    },
+    {
+      "p": "O que levar?",
+      "r": "Documento, exames anteriores, receitas ou lista de remédios e, se tiver, o encaminhamento médico. Idosos sempre acompanhados."
+    },
+    {
+      "p": "Atende pelo SUS?",
+      "r": "Sim, em Bom Jesus da Lapa, Correntina e Riacho de Santana, pela rede pública. Procure a UBS ou a Secretaria de Saúde da sua cidade."
+    }
+  ]
+}
