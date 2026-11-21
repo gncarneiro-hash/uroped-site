@@ -128,7 +128,7 @@ async function atender({ request, env }) {
   const r = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
     headers: {
-      "x-api-key": String(env.ANTHROPIC_API_KEY).replace(/[^\x21-\x7E]/g, ""),
+      "authorization": "Bearer " + String(env.ANTHROPIC_API_KEY).replace(/[^\x21-\x7E]/g, ""),
       "anthropic-version": "2023-06-01",
       "content-type": "application/json",
     },
