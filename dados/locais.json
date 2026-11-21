@@ -1,0 +1,647 @@
+{
+  "_sobre": "Dados de atendimento do site Uroped. Campos null = pendente (mostrar placeholder, nunca inventar). Atualizado em 2026-11-21.",
+  "medicos": [
+    {
+      "id": "gabriel",
+      "nome": "Dr. Gabriel Neves Carneiro",
+      "nome_curto": "Dr. Gabriel",
+      "especialidade": "Urologia",
+      "titulo": "Urologista",
+      "cor": "#0B5563",
+      "crm": "CRM-BA 18.689",
+      "rqe": [
+        {
+          "especialidade": "Urologia",
+          "numero": "11463"
+        },
+        {
+          "especialidade": "Cirurgia Geral",
+          "numero": "8547"
+        }
+      ],
+      "sociedades": [
+        "Membro da Sociedade Brasileira de Urologia (SBU)",
+        "Sócio do Instituto Geográfico e Histórico da Bahia (IGHB)"
+      ],
+      "formacao": [
+        {
+          "titulo": "Medicina",
+          "instituicao": "Universidade Federal da Bahia (UFBA)"
+        },
+        {
+          "titulo": "Residência em Cirurgia Geral",
+          "instituicao": "Hospital Geral Roberto Santos"
+        },
+        {
+          "titulo": "Residência em Urologia",
+          "instituicao": "Hospital Geral Roberto Santos"
+        },
+        {
+          "titulo": "Pós-graduação em Cirurgia Urológica Minimamente Invasiva",
+          "instituicao": "Hospital Sírio-Libanês"
+        },
+        {
+          "titulo": "Especialização em Cirurgia Ginecológica Minimamente Invasiva",
+          "instituicao": "Hospital Sírio-Libanês"
+        },
+        {
+          "titulo": "Pós-graduação em Cirurgia Urológica Robótica",
+          "instituicao": "Hospital 9 de Julho"
+        }
+      ],
+      "redes": {
+        "instagram": "https://www.instagram.com/drgabrielurologista/",
+        "instagram_nome": "Dr. Gabriel Urologista",
+        "facebook": "https://www.facebook.com/gncarneiro",
+        "instagram_usuario": "@drgabrielurologista"
+      },
+      "whatsapp_agendamento": null,
+      "foto": "fotos/dr-gabriel.jpg",
+      "titulo_completo": "Urologista e Cirurgião Geral",
+      "cirurgias": {
+        "categorias": [
+          "Cirurgias urológicas laparoscópicas",
+          "Cirurgias urológicas endoscópicas",
+          "Cirurgias minimamente invasivas"
+        ],
+        "exemplos": null,
+        "locais": [
+          "Fundação Hospital Senhora Santana (Caetité)",
+          "Climef (Santa Maria da Vitória)"
+        ]
+      },
+      "alem_do_consultorio": [
+        "Montanhista",
+        "Fotógrafo"
+      ],
+      "fotos_fora_do_consultorio": [
+        {
+          "arquivo": "fotos/montanha-1.jpg",
+          "legenda": null
+        },
+        {
+          "arquivo": "fotos/buracao-familia.jpg",
+          "legenda": "Cachoeira do Buracão, Chapada Diamantina",
+          "_obs": "foto com a família (inclui criança) — confirmar se publica"
+        }
+      ]
+    },
+    {
+      "id": "narcisa",
+      "nome": "Dra. Narcisa de Oliveira Malheiro",
+      "nome_curto": "Dra. Narcisa",
+      "especialidade": "Pediatria",
+      "titulo": "Pediatra e Neonatologista",
+      "cor": "#A3401F",
+      "crm": "CRM-BA 18.232",
+      "rqe": [
+        {
+          "especialidade": "Pediatria",
+          "numero": "12652"
+        },
+        {
+          "especialidade": "Neonatologia",
+          "numero": "12653"
+        }
+      ],
+      "sociedades": [
+        "Membro titular da Sociedade Brasileira de Pediatria (SBP)"
+      ],
+      "formacao": [
+        {
+          "titulo": "Medicina",
+          "instituicao": "Universidade Federal de Alagoas (UFAL)"
+        },
+        {
+          "titulo": "Residência em Pediatria",
+          "instituicao": "Hospital Universitário Professor Edgard Santos (HUPES/UFBA)"
+        },
+        {
+          "titulo": "Formação em Neonatologia",
+          "instituicao": "Maternidade Professor José Maria de Magalhães Neto / Santa Casa de Misericórdia da Bahia"
+        }
+      ],
+      "tipos_de_consulta": "Acompanhamento integral e afetuoso desde os primeiros dias de vida: puericultura, crescimento saudável, incentivo ao aleitamento materno, introdução alimentar e cuidados especializados com o recém-nascido e prematuro.",
+      "redes": {
+        "instagram": "https://www.instagram.com/dr.narcisa/",
+        "facebook": null,
+        "instagram_usuario": "@dr.narcisa",
+        "_obs": "confirmar se é @dr.narcisa ou @dra.narcisa"
+      },
+      "whatsapp_agendamento": null,
+      "foto": "fotos/dra-narcisa.jpg"
+    }
+  ],
+  "locais": [
+    {
+      "medico": "gabriel",
+      "cidade": "Bom Jesus da Lapa",
+      "clinica": "Clínica Uroderma",
+      "tipo": "consulta",
+      "principal": true,
+      "convenios": true,
+      "servicos": [
+        "Consulta",
+        "Ultrassom",
+        "Urofluxometria",
+        "Estudo urodinâmico",
+        "Cistoscopia",
+        "Biópsia de próstata",
+        "Pequenos procedimentos"
+      ],
+      "endereco": null,
+      "maps": null,
+      "agenda": {
+        "padrao": "Toda terça e quinta",
+        "proximas": [
+          "2026-11-24",
+          "2026-11-26",
+          "2026-12-01",
+          "2026-12-03"
+        ],
+        "fonte": "Google Agenda do Dr. Gabriel, padrão confirmado por ele em 21/11/2026",
+        "confirmado": true,
+        "nivel": "fixo",
+        "destaque": true
+      },
+      "whatsapp": {
+        "exibicao": "(77) 9804-9628",
+        "wa": "557798049628",
+        "_obs": "confirmar se falta o 9 inicial: (77) 9 9804-9628"
+      },
+      "logo": null
+    },
+    {
+      "medico": "gabriel",
+      "cidade": "Bom Jesus da Lapa",
+      "clinica": "Clínica Vila Rica",
+      "tipo": "consulta",
+      "endereco": "Av. Dr. Manoel Novaes, 948 - Centro, Bom Jesus da Lapa - BA, 47600-000",
+      "maps": null,
+      "agenda": {
+        "padrao": "Segunda-feira, a cada 15 dias",
+        "proximas": [
+          "2026-11-23",
+          "2026-12-07",
+          "2026-12-21"
+        ],
+        "fonte": "Google Agenda do Dr. Gabriel, padrão confirmado por ele em 21/11/2026",
+        "confirmado": true,
+        "nivel": "fixo",
+        "destaque": true
+      },
+      "whatsapp": {
+        "exibicao": "(77) 9198-0895",
+        "wa": "557791980895",
+        "_obs": "confirmar se falta o 9 inicial"
+      },
+      "endereco_fonte": "Doctoralia (a confirmar)",
+      "logo": null
+    },
+    {
+      "medico": "gabriel",
+      "cidade": "Paratinga",
+      "clinica": "Clivale",
+      "tipo": "consulta",
+      "endereco": null,
+      "maps": null,
+      "agenda": {
+        "padrao": "Segunda-feira, a cada 15 dias",
+        "proximas": [
+          "2026-11-30",
+          "2026-12-03",
+          "2026-12-14",
+          "2026-12-28"
+        ],
+        "fonte": "Google Agenda do Dr. Gabriel, padrão confirmado por ele em 21/11/2026",
+        "confirmado": true,
+        "nivel": "fixo",
+        "destaque": true
+      },
+      "logo": null,
+      "whatsapp": {
+        "exibicao": "(77) 9920-1219",
+        "wa": "557799201219",
+        "_obs": "confirmar 9 inicial"
+      }
+    },
+    {
+      "medico": "gabriel",
+      "cidade": "Serra do Ramalho",
+      "clinica": "Clínica Vila Rica",
+      "tipo": "consulta",
+      "endereco": null,
+      "maps": null,
+      "agenda": {
+        "padrao": "Segunda-feira, a cada 15 dias (mesmo dia da Vila Rica da Lapa)",
+        "proximas": [
+          "2026-11-30",
+          "2026-12-10",
+          "2026-12-21"
+        ],
+        "fonte": "Google Agenda do Dr. Gabriel, padrão confirmado por ele em 21/11/2026",
+        "confirmado": true,
+        "nivel": "fixo",
+        "destaque": true
+      },
+      "logo": null,
+      "whatsapp": {
+        "exibicao": "(77) 9186-2121",
+        "wa": "557791862121",
+        "_obs": "confirmar 9 inicial"
+      }
+    },
+    {
+      "medico": "gabriel",
+      "cidade": "Santa Maria da Vitória",
+      "clinica": "Climef",
+      "tipo": "consulta e cirurgia",
+      "endereco": null,
+      "maps": null,
+      "agenda": {
+        "padrao": "Sexta-feira à tarde, a cada 15 dias",
+        "proximas": [
+          "2026-12-04",
+          "2026-12-11",
+          "2026-12-25"
+        ],
+        "fonte": "Google Agenda do Dr. Gabriel, padrão confirmado por ele em 21/11/2026",
+        "confirmado": true,
+        "nivel": "fixo",
+        "destaque": true
+      },
+      "logo": null,
+      "whatsapp": {
+        "exibicao": "(77) 9841-3648",
+        "wa": "557798413648",
+        "_obs": "confirmar 9 inicial"
+      },
+      "_obs_nome": "confirmar grafia: Climef ou Climefe"
+    },
+    {
+      "medico": "gabriel",
+      "cidade": "Cocos",
+      "clinica": "Climef",
+      "tipo": "consulta",
+      "endereco": null,
+      "maps": null,
+      "agenda": {
+        "padrao": "Sábado, 1 vez por mês",
+        "proximas": [
+          "2026-12-05"
+        ],
+        "fonte": "Google Agenda do Dr. Gabriel, padrão confirmado por ele em 21/11/2026",
+        "confirmado": true,
+        "nivel": "mensal",
+        "destaque": true
+      },
+      "logo": null,
+      "whatsapp": {
+        "exibicao": "(77) 9153-8953",
+        "wa": "557791538953",
+        "_obs": "confirmar 9 inicial"
+      },
+      "_obs_nome": "confirmar grafia: Climef ou Climefe"
+    },
+    {
+      "medico": "gabriel",
+      "cidade": "Santana",
+      "clinica": "Centro Médico Cárdenas Marín",
+      "tipo": "consulta",
+      "endereco": null,
+      "maps": null,
+      "agenda": {
+        "padrao": "Quinta ou sexta, cerca de 1 vez por mês (mesmo dia de Serra Dourada)",
+        "proximas": [],
+        "fonte": "Google Agenda do Dr. Gabriel, padrão confirmado por ele em 21/11/2026",
+        "confirmado": true,
+        "nivel": "mensal",
+        "destaque": true
+      },
+      "logo": null,
+      "_obs_nome": "grafia informada: \"cardenas marin\" — confirmar acentos (Cárdenas Marín)",
+      "whatsapp": {
+        "exibicao": "(77) 8142-8514",
+        "wa": "557781428514",
+        "_obs": "confirmar 9 inicial"
+      }
+    },
+    {
+      "medico": "gabriel",
+      "cidade": "Serra Dourada",
+      "clinica": "Clínica Vilas Boas",
+      "tipo": "consulta",
+      "endereco": null,
+      "maps": null,
+      "agenda": {
+        "padrao": "Quinta ou sexta, cerca de 1 vez por mês (mesmo dia de Santana)",
+        "proximas": [],
+        "fonte": "Google Agenda do Dr. Gabriel, padrão confirmado por ele em 21/11/2026",
+        "confirmado": true,
+        "nivel": "mensal",
+        "destaque": true
+      },
+      "logo": null,
+      "whatsapp": {
+        "exibicao": "(77) 9162-1963",
+        "wa": "557791621963",
+        "_obs": "confirmar 9 inicial"
+      }
+    },
+    {
+      "medico": "gabriel",
+      "cidade": "Correntina",
+      "clinica": "Climec",
+      "_obs": "nome confirmado: Climec; atendimento confirmado em 21/11",
+      "tipo": "consulta",
+      "principal_na_cidade": true,
+      "endereco": null,
+      "maps": null,
+      "agenda": {
+        "padrao": "Sexta-feira, a cada 15 dias",
+        "proximas": [
+          "2026-12-04",
+          "2026-12-18"
+        ],
+        "fonte": "Google Agenda do Dr. Gabriel, padrão confirmado por ele em 21/11/2026",
+        "confirmado": true,
+        "nivel": "fixo",
+        "destaque": true
+      },
+      "logo": null,
+      "whatsapp": {
+        "exibicao": "(77) 9865-4077",
+        "wa": "557798654077",
+        "_obs": "confirmar 9 inicial"
+      }
+    },
+    {
+      "medico": "gabriel",
+      "cidade": "Correntina",
+      "clinica": "Clínica Pedro Guerra",
+      "tipo": "consulta",
+      "endereco": null,
+      "maps": null,
+      "agenda": {
+        "padrao": "Sexta-feira, cerca de 1 vez por mês",
+        "proximas": [
+          "2026-12-11"
+        ],
+        "fonte": "Google Agenda do Dr. Gabriel, padrão confirmado por ele em 21/11/2026",
+        "confirmado": true,
+        "nivel": "mensal",
+        "destaque": true
+      },
+      "_obs": "atendimento confirmado em 21/11",
+      "logo": null,
+      "whatsapp": {
+        "exibicao": "(77) 9845-5316",
+        "wa": "557798455316",
+        "_obs": "confirmar 9 inicial"
+      }
+    },
+    {
+      "medico": "gabriel",
+      "cidade": "Correntina",
+      "clinica": "Clínica Vida e Saúde",
+      "tipo": "consulta",
+      "endereco": null,
+      "maps": null,
+      "agenda": {
+        "padrao": "Sexta-feira, cerca de 1 vez por mês (confirmar)",
+        "proximas": [],
+        "fonte": "Google Agenda do Dr. Gabriel, padrão confirmado por ele em 21/11/2026",
+        "confirmado": true,
+        "nivel": "mensal",
+        "destaque": true
+      },
+      "_obs": "atendimento confirmado em 21/11",
+      "logo": null,
+      "whatsapp": {
+        "exibicao": "(77) 9844-4004",
+        "wa": "557798444004",
+        "_obs": "confirmar 9 inicial"
+      }
+    },
+    {
+      "medico": "gabriel",
+      "cidade": "Riacho de Santana",
+      "clinica": "Clínica Vida",
+      "tipo": "consulta",
+      "endereco": "Rua Godofredo Guedes, 351 - Centro, Riacho de Santana - BA, 46470-000",
+      "maps": null,
+      "agenda": {
+        "padrao": "Geralmente quinta-feira, 1 a 2 vezes por mês",
+        "proximas": [
+          "2026-11-26"
+        ],
+        "fonte": "Google Agenda do Dr. Gabriel, padrão confirmado por ele em 21/11/2026",
+        "confirmado": true,
+        "nivel": "mensal",
+        "destaque": true
+      },
+      "endereco_fonte": "cadastro CNES via bula.com.br (a confirmar)",
+      "logo": null,
+      "whatsapp": {
+        "exibicao": "(77) 9951-5049",
+        "wa": "557799515049",
+        "_obs": "confirmar 9 inicial"
+      }
+    },
+    {
+      "medico": "gabriel",
+      "cidade": "Macaúbas",
+      "clinica": "Laboratório Pesquisa",
+      "tipo": "consulta",
+      "endereco": null,
+      "maps": null,
+      "agenda": {
+        "padrao": "Eventual, geralmente sábado",
+        "proximas": [
+          "2026-12-12"
+        ],
+        "fonte": "Google Agenda do Dr. Gabriel (set/2026–jan/2027), padrão inferido — confirmar",
+        "nivel": "eventual",
+        "exibir_como": "Datas sob consulta"
+      },
+      "frequencia": "eventual",
+      "logo": null,
+      "whatsapp": {
+        "exibicao": "(77) 9999-9495",
+        "wa": "557799999495",
+        "_obs": "confirmar 9 inicial"
+      }
+    },
+    {
+      "medico": "gabriel",
+      "cidade": "Botuporã",
+      "clinica": "Laboratório MedLab",
+      "tipo": "consulta",
+      "endereco": null,
+      "maps": null,
+      "agenda": {
+        "padrao": "Eventual",
+        "proximas": [],
+        "fonte": "Google Agenda do Dr. Gabriel (set/2026–jan/2027), padrão inferido — confirmar",
+        "nivel": "eventual",
+        "exibir_como": "Datas sob consulta"
+      },
+      "frequencia": "eventual",
+      "logo": null,
+      "whatsapp": {
+        "exibicao": "(77) 8867-0018",
+        "wa": "557788670018",
+        "_obs": "confirmar 9 inicial"
+      }
+    },
+    {
+      "medico": "gabriel",
+      "cidade": "Caetité",
+      "clinica": "Fundação Hospital Senhora Santana",
+      "tipo": "cirurgia",
+      "endereco": null,
+      "maps": null,
+      "agenda": {
+        "padrao": "Cirurgias às quartas, a cada 15 dias",
+        "proximas": [
+          "2026-12-02",
+          "2026-12-16",
+          "2026-12-30"
+        ],
+        "fonte": "Google Agenda do Dr. Gabriel, padrão confirmado por ele em 21/11/2026",
+        "confirmado": true,
+        "nivel": "fixo",
+        "destaque": true
+      },
+      "logo": null,
+      "whatsapp": {
+        "exibicao": "(77) 9941-8816",
+        "wa": "557799418816",
+        "_obs": "confirmar 9 inicial"
+      }
+    },
+    {
+      "medico": "narcisa",
+      "cidade": "Bom Jesus da Lapa",
+      "clinica": "Vila Rica Kids",
+      "tipo": "consulta",
+      "endereco": null,
+      "maps": null,
+      "agenda": null,
+      "logo": null,
+      "whatsapp": {
+        "exibicao": "(77) 98111-3178",
+        "wa": "5577981113178"
+      }
+    },
+    {
+      "medico": "narcisa",
+      "cidade": "Bom Jesus da Lapa",
+      "clinica": "Odontomed",
+      "tipo": "consulta",
+      "endereco": null,
+      "maps": null,
+      "agenda": null,
+      "logo": null,
+      "whatsapp": {
+        "exibicao": "(77) 99911-0210",
+        "wa": "5577999110210"
+      }
+    },
+    {
+      "medico": "narcisa",
+      "cidade": "Bom Jesus da Lapa",
+      "clinica": "Cemed",
+      "tipo": "consulta",
+      "endereco": null,
+      "maps": null,
+      "agenda": null,
+      "logo": null,
+      "whatsapp": {
+        "exibicao": "(77) 99199-6264",
+        "wa": "5577991996264"
+      }
+    },
+    {
+      "medico": "narcisa",
+      "cidade": "Paratinga",
+      "clinica": "Clivale",
+      "tipo": "consulta",
+      "endereco": null,
+      "maps": null,
+      "agenda": null,
+      "logo": null,
+      "whatsapp": {
+        "exibicao": "(77) 9920-1219",
+        "wa": "557799201219",
+        "_obs": "confirmar 9 inicial"
+      }
+    }
+  ],
+  "servicos_uroderma": [
+    {
+      "grupo": "Consulta",
+      "nome": "Consulta urológica",
+      "valor": null
+    },
+    {
+      "grupo": "Ultrassonografia",
+      "nome": "Ultrassom de rins e vias urinárias",
+      "valor": null
+    },
+    {
+      "grupo": "Ultrassonografia",
+      "nome": "Ultrassom de próstata via abdominal",
+      "valor": null
+    },
+    {
+      "grupo": "Ultrassonografia",
+      "nome": "Ultrassom de próstata via transretal",
+      "valor": null
+    },
+    {
+      "grupo": "Ultrassonografia",
+      "nome": "Ultrassom da região inguinal",
+      "valor": null
+    },
+    {
+      "grupo": "Ultrassonografia",
+      "nome": "Ultrassom da bolsa testicular (escrotal)",
+      "valor": null
+    },
+    {
+      "grupo": "Exames funcionais",
+      "nome": "Estudo urodinâmico",
+      "valor": null
+    },
+    {
+      "grupo": "Exames funcionais",
+      "nome": "Urofluxometria",
+      "valor": null
+    },
+    {
+      "grupo": "Endoscopia urológica",
+      "nome": "Cistoscopia convencional (rígida)",
+      "valor": null
+    },
+    {
+      "grupo": "Endoscopia urológica",
+      "nome": "Cistoscopia flexível",
+      "valor": null
+    },
+    {
+      "grupo": "Procedimentos",
+      "nome": "Biópsia de próstata",
+      "valor": null
+    },
+    {
+      "grupo": "Procedimentos",
+      "nome": "Pequenos procedimentos",
+      "valor": null
+    }
+  ],
+  "consulta_pediatrica": {
+    "valor": null
+  },
+  "convenios_uroderma": null
+}

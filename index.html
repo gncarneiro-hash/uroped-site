@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uroped — Urologia e Pediatria de Excelência no Oeste da Bahia</title>
+  <meta name="description" content="UROPED Especialidades Médicas: Dr. Gabriel Neves Carneiro (Urologista) e Dra. Narcisa Malheiro (Pediatra e Neonatologista). Consultas, exames diagnósticos e cirurgias em Bom Jesus da Lapa e região.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 1. Topbar de Informações Rápidas -->
+  <div class="topbar">
+    <div class="container topbar-content">
+      <div class="topbar-item">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"></path>
+          <circle cx="12" cy="10" r="2.5"></circle>
+        </svg>
+        <span>Polo Principal: Clínica Uroderma · Bom Jesus da Lapa - BA</span>
+      </div>
+      <div class="topbar-item">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+        </svg>
+        <a href="https://wa.me/557798049628?text=Olá!%20Gostaria%20de%20informações%20sobre%20atendimentos%20da%20Uroped." target="_blank" rel="noopener">WhatsApp Central: (77) 9804-9628</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Navegação Principal -->
+  <header class="main-header">
+    <div class="container nav-content">
+      <a href="index.html" class="brand-logo" aria-label="Uroped Início">
+        <img src="logos/uroped-logo.png" alt="Logomarca Uroped — Especialidades Médicas" class="brand-logo-img">
+      </a>
+
+      <nav class="nav-links">
+        <a href="#especialidades">Especialidades</a>
+        <a href="#corpo-clinico">Corpo Clínico</a>
+        <a href="#como-funciona">Como Funciona</a>
+        <a href="#locais">Onde Atendemos</a>
+        <a href="#faq">Dúvidas</a>
+      </nav>
+
+      <button type="button" onclick="openBookingModal()" class="btn-header-cta" style="border: none; cursor: pointer;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+        </svg>
+        <span>Agendar Consulta</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- 3. Hero Section (Inspirado no padrão Urolaser) -->
+  <section class="hero-wrapper">
+    <div class="container hero-grid">
+      <div>
+        <div class="hero-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+          Urologia & Pediatria Integradas
+        </div>
+        <h1 class="hero-title">Cuidado humanizado e tecnologia de ponta para a sua família.</h1>
+        <p class="hero-desc">
+          Atendimento médico especializado com o <strong>Dr. Gabriel Neves Carneiro</strong> (Urologista) e a <strong>Dra. Narcisa Malheiro</strong> (Pediatra e Neonatologista). Estrutura diagnóstica completa, cirurgias minimamente invasivas e atenção integral em Bom Jesus da Lapa e em toda a região oeste e sudoeste da Bahia.
+        </p>
+        <div class="hero-buttons">
+          <button type="button" onclick="openBookingModal()" class="btn-hero-primary" style="border: none; cursor: pointer;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+            Agendar por Cidade
+          </button>
+          <a href="#locais" class="btn-hero-secondary">
+            Ver Cidades e Horários
+          </a>
+        </div>
+      </div>
+
+      <!-- Card Flutuante de Destaque -->
+      <div>
+        <div class="hero-card-box">
+          <div class="hero-card-header">
+            <div class="hero-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+            </div>
+            <div>
+              <h3 style="color: var(--text-title);">Pronto Atendimento & Agenda</h3>
+              <span style="font-size: 13px; color: var(--text-muted);">Consultas agendadas e orientadas</span>
+            </div>
+          </div>
+          <div class="hero-card-list">
+            <div class="hero-card-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span><strong>Exames no consultório:</strong> Ultrassom, urodinâmica e biópsias na Clínica Uroderma.</span>
+            </div>
+            <div class="hero-card-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span><strong>Cirurgias especializadas:</strong> Procedimentos em Caetité e Santa Maria da Vitória.</span>
+            </div>
+            <div class="hero-card-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span><strong>Puericultura & Neonatologia:</strong> Cuidado de perto desde o nascimento até a juventude.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Quatro Pilares de Excelência (Diferenciais Uroped) -->
+  <section class="features-section">
+    <div class="container features-grid">
+      <div class="feature-card">
+        <div class="feature-icon-wrapper teal">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">Cirurgia Robótica e Minimamente Invasiva</h3>
+        <p class="feature-text">Formação especializada no Hospital Sírio-Libanês e Hospital 9 de Julho para procedimentos precisos e recuperação mais rápida.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon-wrapper coral">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+        </div>
+        <h3 class="feature-title">Pediatria & Neonatologia Integrada</h3>
+        <p class="feature-text">Acompanhamento contínuo do crescimento, desenvolvimento infantil e cuidados dedicados aos recém-nascidos e prematuros.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon-wrapper teal">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+        </div>
+        <h3 class="feature-title">Exames Diagnósticos no Local</h3>
+        <p class="feature-text">Ultrassom de rins e próstata, estudo urodinâmico, urofluxometria e biópsias com segurança diagnóstica na Clínica Uroderma.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon-wrapper green">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+        </div>
+        <h3 class="feature-title">Presença Regional em Mais de 10 Cidades</h3>
+        <p class="feature-text">Atendimento itinerante e periódico aproximando a medicina de ponta de pacientes em todo o sudoeste e oeste baiano.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Especialidades Médicas (Urologia & Pediatria) -->
+  <section id="especialidades" class="section-pad">
+    <div class="container">
+      <div class="section-header-center">
+        <span class="section-pretitle">Áreas de Atuação</span>
+        <h2 class="section-main-title">Especialidades Médicas Oferecidas</h2>
+        <p class="section-subtitle">Tratamentos modernos baseados nas melhores evidências científicas para todas as idades.</p>
+      </div>
+
+      <div class="specialties-grid">
+        <!-- Card Urologia -->
+        <div class="spec-card-main">
+          <div class="spec-card-header urologia">
+            <div>
+              <h3 class="spec-card-title">Urologia & Cirurgia Geral</h3>
+              <div class="spec-card-sub">Dr. Gabriel Neves Carneiro · SBU</div>
+            </div>
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+            </svg>
+          </div>
+          <div class="spec-card-body">
+            <ul class="spec-item-list">
+              <li class="spec-item">
+                <span class="spec-item-bullet urologia-bullet"></span>
+                <span><strong>Saúde da Próstata:</strong> Prevenção, diagnóstico precoce e tratamento da hiperplasia prostática benigna e câncer.</span>
+              </li>
+              <li class="spec-item">
+                <span class="spec-item-bullet urologia-bullet"></span>
+                <span><strong>Cálculos Renais (Pedras nos Rins):</strong> Tratamento clínico e procedimentos cirúrgicos endoscópicos a laser.</span>
+              </li>
+              <li class="spec-item">
+                <span class="spec-item-bullet urologia-bullet"></span>
+                <span><strong>Cirurgias Minimamente Invasivas:</strong> Videolaparoscopia e capacitação em cirurgia robótica.</span>
+              </li>
+              <li class="spec-item">
+                <span class="spec-item-bullet urologia-bullet"></span>
+                <span><strong>Saúde Masculina:</strong> Vasectomia, disfunção erétil, andrologia e pequenas intervenções ambulatoriais.</span>
+              </li>
+              <li class="spec-item">
+                <span class="spec-item-bullet urologia-bullet"></span>
+                <span><strong>Exames Funcionais:</strong> Estudo urodinâmico, urofluxometria e biópsia de próstata guiada por ultrassom.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="spec-card-footer">
+            <span style="font-size: 13px; color: var(--text-muted);">Atende em 12 cidades baianas</span>
+            <a href="gabriel.html" style="font-weight: 700; font-size: 14px;">Ver detalhes do médico →</a>
+          </div>
+        </div>
+
+        <!-- Card Pediatria -->
+        <div class="spec-card-main">
+          <div class="spec-card-header pediatria">
+            <div>
+              <h3 class="spec-card-title">Pediatria & Neonatologia</h3>
+              <div class="spec-card-sub">Dra. Narcisa de Oliveira Malheiro · SBP</div>
+            </div>
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+          </div>
+          <div class="spec-card-body">
+            <ul class="spec-item-list">
+              <li class="spec-item">
+                <span class="spec-item-bullet pediatria-bullet"></span>
+                <span><strong>Puericultura:</strong> Acompanhamento preventivo de crescimento, ganho ponderoestatural e desenvolvimento psicomotor.</span>
+              </li>
+              <li class="spec-item">
+                <span class="spec-item-bullet pediatria-bullet"></span>
+                <span><strong>Recém-nascidos e Prematuros:</strong> Atenção neonatal minuciosa, orientações sobre teste do pezinho, icterícia e reflexos.</span>
+              </li>
+              <li class="spec-item">
+                <span class="spec-item-bullet pediatria-bullet"></span>
+                <span><strong>Amamentação & Nutrição:</strong> Suporte na pega do aleitamento materno e plano seguro de introdução alimentar.</span>
+              </li>
+              <li class="spec-item">
+                <span class="spec-item-bullet pediatria-bullet"></span>
+                <span><strong>Doenças da Infância:</strong> Diagnóstico e tratamento de quadros respiratórios, alergias, viroses e febres.</span>
+              </li>
+              <li class="spec-item">
+                <span class="spec-item-bullet pediatria-bullet"></span>
+                <span><strong>Calendário Vacinal:</strong> Orientação técnica e acompanhamento do esquema de imunização.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="spec-card-footer">
+            <span style="font-size: 13px; color: var(--text-muted);">Bom Jesus da Lapa e Paratinga</span>
+            <a href="narcisa.html" style="font-weight: 700; font-size: 14px; color: var(--coral);">Ver detalhes da médica →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Corpo Clínico (Apresentação Profissional) -->
+  <section id="corpo-clinico" class="section-pad-alt">
+    <div class="container">
+      <div class="section-header-center">
+        <span class="section-pretitle">Profissionais</span>
+        <h2 class="section-main-title">Conheça o Corpo Clínico</h2>
+        <p class="section-subtitle">Médicos especialistas com sólida formação acadêmica e compromisso com o cuidado ético e atencioso.</p>
+      </div>
+
+      <div class="doctors-grid">
+        <!-- Dr. Gabriel -->
+        <div class="doctor-profile-card">
+          <div class="doctor-card-top">
+            <img src="fotos/dr-gabriel.jpg" alt="Dr. Gabriel Neves Carneiro" class="doctor-avatar-circle teal">
+            <div class="doctor-titles">
+              <span class="doctor-spec-label teal">Urologista & Cirurgião Geral</span>
+              <h3 class="doctor-full-name">Dr. Gabriel Neves Carneiro</h3>
+              <span class="doctor-reg-meta">CRM-BA 18.689 · RQE 11463 · RQE 8547</span>
+            </div>
+          </div>
+          <div class="doctor-card-body">
+            <p style="margin: 0;">
+              Graduado em Medicina pela Universidade Federal da Bahia (UFBA), com residências em Cirurgia Geral e Urologia pelo Hospital Geral Roberto Santos. Especializações em Cirurgia Minimamente Invasiva pelo Hospital Sírio-Libanês e Cirurgia Robótica pelo Hospital 9 de Julho.
+            </p>
+            <div class="badges-row">
+              <span class="cred-badge">Membro da SBU</span>
+              <span class="cred-badge">Cirurgia Robótica (9 de Julho)</span>
+              <span class="cred-badge">Sírio-Libanês</span>
+            </div>
+          </div>
+          <div class="doctor-card-bottom">
+            <a href="gabriel.html" class="btn-unit-maps" style="flex: 1;">Ver Perfil Completo</a>
+            <a href="https://wa.me/557798049628?text=Olá!%20Quero%20agendar%20consulta%20com%20Dr.%20Gabriel%20Carneiro." target="_blank" rel="noopener" class="btn-unit-wa" style="flex: 1;">Agendar Consulta</a>
+          </div>
+        </div>
+
+        <!-- Dra. Narcisa -->
+        <div class="doctor-profile-card">
+          <div class="doctor-card-top">
+            <img src="fotos/dra-narcisa.jpg" alt="Dra. Narcisa de Oliveira Malheiro" class="doctor-avatar-circle coral">
+            <div class="doctor-titles">
+              <span class="doctor-spec-label coral">Pediatra & Neonatologista</span>
+              <h3 class="doctor-full-name">Dra. Narcisa de Oliveira Malheiro</h3>
+              <span class="doctor-reg-meta">CRM-BA 18.232 · RQE 12652 · RQE 12653</span>
+            </div>
+          </div>
+          <div class="doctor-card-body">
+            <p style="margin: 0;">
+              Graduada pela Universidade Federal de Alagoas (UFAL), com residência médica em Pediatria pelo Hospital Universitário Professor Edgard Santos (HUPES / UFBA) e formação em Neonatologia pela Maternidade Professor José Maria de Magalhães Neto / Santa Casa de Misericórdia da Bahia.
+            </p>
+            <div class="badges-row">
+              <span class="cred-badge">Membro Titular SBP</span>
+              <span class="cred-badge">HUPES / UFBA</span>
+              <span class="cred-badge">Santa Casa da Bahia</span>
+            </div>
+          </div>
+          <div class="doctor-card-bottom">
+            <a href="narcisa.html" class="btn-unit-maps" style="flex: 1;">Ver Perfil Completo</a>
+            <a href="https://wa.me/5577981113178?text=Olá!%20Quero%20agendar%20consulta%20com%20Dra.%20Narcisa%20Malheiro." target="_blank" rel="noopener" class="btn-unit-wa" style="flex: 1; background: var(--coral);">Agendar Consulta</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Como Funciona o Atendimento (Padrão Urolaser) -->
+  <section id="como-funciona" class="section-pad">
+    <div class="container">
+      <div class="section-header-center">
+        <span class="section-pretitle">Fluxo Simples</span>
+        <h2 class="section-main-title">Como Funciona o Seu Atendimento</h2>
+        <p class="section-subtitle">Um caminho prático e sem burocracia para você e sua família.</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3 class="step-title">Agendamento pelo WhatsApp</h3>
+          <p class="step-desc">Você seleciona o médico e a cidade de sua preferência. A mensagem já vai pronta para a recepção verificar as datas e confirmar o horário.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3 class="step-title">Consulta Detalhada</h3>
+          <p class="step-desc">Atendimento médico humanizado, atencioso e sem pressa, com escuta atenta dos sintomas, histórico clínico e exame físico rigoroso.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3 class="step-title">Diagnóstico & Conduta</h3>
+          <p class="step-desc">Definição do plano de cuidados: realização de exames complementares (se necessários), orientações preventivas ou condutas cirúrgicas precisas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Onde Atendemos (Cidades e Clínicas - Filtro Interativo) -->
+  <section id="locais" class="section-pad-alt">
+    <div class="container">
+      <div class="section-header-center">
+        <span class="section-pretitle">Logística & Acesso</span>
+        <h2 class="section-main-title">Onde e Quando Atendemos</h2>
+        <p class="section-subtitle">Selecione a especialidade e a cidade para visualizar os endereços das clínicas e agendar sua consulta.</p>
+      </div>
+
+      <div class="locations-container">
+        <div class="filter-controls-row">
+          <div>
+            <span style="font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); display: block; margin-bottom: 6px;">1. Filtrar por Especialidade:</span>
+            <div class="filter-btn-group">
+              <button type="button" class="spec-toggle-btn active" data-spec="todos">Todas</button>
+              <button type="button" class="spec-toggle-btn" data-spec="urologia">Urologia</button>
+              <button type="button" class="spec-toggle-btn" data-spec="pediatria">Pediatria</button>
+            </div>
+          </div>
+          <div>
+            <span style="font-size: 13px; color: var(--text-muted);" id="deck-count-indicator">Carregando locais...</span>
+          </div>
+        </div>
+
+        <div>
+          <span style="font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); display: block; margin-bottom: 4px;">2. Escolha sua Cidade:</span>
+          <div class="city-scroll-chips" id="city-chip-list">
+            <!-- Chips gerados via JS -->
+          </div>
+        </div>
+
+        <div style="margin-top: 28px;">
+          <div class="clinics-deck" id="clinics-grid-container">
+            <!-- Cards de clínicas gerados via JS -->
+          </div>
+          <div id="deck-empty-alert" class="empty-state" style="display: none; margin-top: 20px;">
+            Não encontramos atendimentos para esta especialidade na cidade selecionada. Entre em contato com a nossa central pelo WhatsApp para verificar datas adicionais.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Informações Práticas (Retorno, Convênios, Pagamentos - Padrão Urolaser) -->
+  <section class="section-pad">
+    <div class="container">
+      <div class="section-header-center">
+        <span class="section-pretitle">Transparência</span>
+        <h2 class="section-main-title">Informações Importantes para Pacientes</h2>
+        <p class="section-subtitle">Tudo o que você precisa saber antes de comparecer ao seu atendimento.</p>
+      </div>
+
+      <div class="practical-info-grid">
+        <div class="info-box-item">
+          <div class="info-box-header">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <span>Retorno de Consulta</span>
+          </div>
+          <p class="info-box-desc">
+            As consultas contam com prazo de retorno em até 30 dias para avaliação de exames solicitados pelo médico, conforme critérios da legislação médica.
+          </p>
+        </div>
+
+        <div class="info-box-item">
+          <div class="info-box-header">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+              <line x1="1" y1="10" x2="23" y2="10"></line>
+            </svg>
+            <span>Formas de Pagamento</span>
+          </div>
+          <p class="info-box-desc">
+            Aceitamos Pix, dinheiro em espécie e cartões de crédito e débito. Fornecemos nota fiscal/recibo completo para solicitação de reembolso no seu plano de saúde.
+          </p>
+        </div>
+
+        <div class="info-box-item">
+          <div class="info-box-header">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+            <span>Convênios & Planos de Saúde</span>
+          </div>
+          <p class="info-box-desc">
+            Atendimento através de convênios médicos credenciados é realizado exclusivamente na <strong>Clínica Uroderma</strong> (Bom Jesus da Lapa). Nas demais cidades, o atendimento é particular.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. Perguntas Frequentes (FAQ) -->
+  <section id="faq" class="section-pad-alt">
+    <div class="container">
+      <div class="section-header-center">
+        <span class="section-pretitle">Tire suas dúvidas</span>
+        <h2 class="section-main-title">Perguntas Frequentes</h2>
+      </div>
+
+      <div class="faq-grid">
+        <div class="faq-card">
+          <div class="faq-question">Como faço para agendar a primeira consulta?</div>
+          <div class="faq-answer">É muito simples: clique no botão de agendamento de qualquer clínica na lista de cidades. O link abrirá o seu WhatsApp com a mensagem preenchida indicando o médico e o local desejado.</div>
+        </div>
+
+        <div class="faq-card">
+          <div class="faq-question">Posso realizar meus exames urológicos no mesmo dia?</div>
+          <div class="faq-answer">Na Clínica Uroderma em Bom Jesus da Lapa contamos com aparelhos de ultrassonografia, urofluxometria e biópsias, permitindo agilizar o diagnóstico conforme o preparo prévio do paciente.</div>
+        </div>
+
+        <div class="faq-card">
+          <div class="faq-question">Qual a frequência ideal das consultas com a pediatra?</div>
+          <div class="faq-answer">No primeiro ano de vida, a Sociedade Brasileira de Pediatria orienta visitas mensais até os 6 meses de vida, bimestrais dos 7 aos 12 meses, e acompanhamento periódico subsequente na infância.</div>
+        </div>
+
+        <div class="faq-card">
+          <div class="faq-question">Onde são realizadas as cirurgias urológicas?</div>
+          <div class="faq-answer">As intervenções cirúrgicas do Dr. Gabriel ocorrem em ambiente hospitalar de alta segurança na Fundação Hospital Senhora Santana (Caetité) e na Climef (Santa Maria da Vitória).</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. Rodapé Corporativo & CFM -->
+  <footer class="footer-corporate">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <img src="logos/uroped-logo.png" alt="Uroped Logo" style="height: 86px; border-radius: 12px; margin-bottom: 16px; background: #fff; padding: 6px; display: inline-block;">
+          <h3>UROPED Especialidades Médicas</h3>
+          <p>
+            Cuidado dedicado à saúde urológica do adulto e à saúde integral da criança e do adolescente no oeste e sudoeste da Bahia.
+          </p>
+          <p style="font-size: 13px; margin-top: 10px;">
+            <strong>Polo Principal:</strong> Clínica Uroderma — Bom Jesus da Lapa - BA<br>
+            <strong>WhatsApp:</strong> (77) 9804-9628
+          </p>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#especialidades">Especialidades</a></li>
+            <li><a href="#corpo-clinico">Corpo Clínico</a></li>
+            <li><a href="#locais">Onde Atendemos</a></li>
+            <li><a href="gabriel.html">Dr. Gabriel (Urologista)</a></li>
+            <li><a href="narcisa.html">Dra. Narcisa (Pediatra)</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Cidades de Atendimento</h4>
+          <ul>
+            <li>Bom Jesus da Lapa (Uroderma)</li>
+            <li>Correntina (Climec / Clínicas)</li>
+            <li>Santa Maria da Vitória (Climef)</li>
+            <li>Caetité (Cirurgias)</li>
+            <li>Paratinga, Cocos, Santana e mais</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-cfm-compliance">
+        <strong>Conformidade Ética Médica — Resolução CFM nº 2.336/2023:</strong><br>
+        • <strong>Dr. Gabriel Neves Carneiro</strong> — CRM-BA 18.689 · RQE 11463 (Urologia) · RQE 8547 (Cirurgia Geral).<br>
+        • <strong>Dra. Narcisa de Oliveira Malheiro</strong> — CRM-BA 18.232 · RQE 12652 (Pediatria) · RQE 12653 (Neonatologia).<br>
+        • <strong>UROPED LTDA</strong> · CNPJ: [em cadastramento] · Domínio oficial: <code>uroped.social.br</code>.<br>
+        As informações contidas neste site possuem finalidade educativa e informativa, não substituindo a consulta médica presencial. O WhatsApp da clínica tem finalidade de agendamento e triagem de consultas.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal Interativo de Agendamento por Cidade -->
+  <div class="booking-modal-overlay" id="booking-modal" role="dialog" aria-modal="true">
+    <div class="booking-modal-card">
+      <div class="modal-header-bar">
+        <h3>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+          </svg>
+          Agendar Consulta
+        </h3>
+        <button type="button" class="modal-close-btn" onclick="closeBookingModal()" aria-label="Fechar modal">✕</button>
+      </div>
+
+      <div class="modal-body-scroll">
+        <!-- Visualização 1: Lista de Cidades -->
+        <div id="modal-view-cities">
+          <div class="modal-step-title">1. Escolha a sua cidade:</div>
+          <p style="font-size: 14px; color: var(--text-muted); margin-top: 0; margin-bottom: 16px;">
+            Clique sobre a sua cidade para visualizar a clínica onde atendemos e abrir o link direto do WhatsApp de agendamento:
+          </p>
+          <div class="modal-cities-grid" id="modal-cities-container">
+            <!-- Cidades inseridas via JS -->
+          </div>
+        </div>
+
+        <!-- Visualização 2: Clínicas da Cidade Selecionada -->
+        <div id="modal-view-clinics" style="display: none;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 8px;">
+            <button type="button" class="btn-modal-back" onclick="showModalCities()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+              Escolher outra cidade
+            </button>
+            <span id="modal-selected-city-title" style="font-weight: 800; font-size: 16px; color: var(--primary);"></span>
+          </div>
+          <div class="modal-step-title">2. Clínicas disponíveis nesta cidade:</div>
+          <div class="modal-clinics-list" id="modal-clinics-container">
+            <!-- Clínicas inseridas via JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Botão Flutuante de WhatsApp -->
+  <button type="button" onclick="openBookingModal()" class="floating-wa-btn" aria-label="Agendar consulta" style="border: none; cursor: pointer;">
+    <span class="floating-wa-tooltip">Agendar Consulta</span>
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+    </svg>
+  </button>
+
+<script>
+// Base de dados estruturada para exibição instantânea
+const LOCAIS_DATA = [
+  // Dr. Gabriel (Urologia)
+  {
+    medico: "gabriel",
+    medicoNome: "Dr. Gabriel Carneiro",
+    especialidade: "urologia",
+    cidade: "Bom Jesus da Lapa",
+    clinica: "Clínica Uroderma",
+    tipo: "Polo Principal · Consultas & Exames",
+    endereco: "Av. Agenor de Oliveira Magalhães, 671 - Amaralina",
+    maps: "https://maps.google.com/?q=Av.+Agenor+de+Oliveira+Magalhaes+671+Bom+Jesus+da+Lapa",
+    whatsapp: "5577998049628",
+    proximaData: "[dd/mm] · [horário]",
+    destaque: true
+  },
+  {
+    medico: "gabriel",
+    medicoNome: "Dr. Gabriel Carneiro",
+    especialidade: "urologia",
+    cidade: "Bom Jesus da Lapa",
+    clinica: "Clínica Vila Rica",
+    tipo: "Consultas Urológicas",
+    endereco: "Av. Dr. Manoel Novaes, 948 - Centro",
+    maps: "https://maps.google.com/?q=Clinica+Vila+Rica+Bom+Jesus+da+Lapa",
+    whatsapp: "5577991980895",
+    proximaData: "[dd/mm] · [horário]"
+  },
+  {
+    medico: "gabriel",
+    medicoNome: "Dr. Gabriel Carneiro",
+    especialidade: "urologia",
+    cidade: "Correntina",
+    clinica: "Climec",
+    tipo: "Principal em Correntina",
+    endereco: "Rua da Chácara, 342 - Centro",
+    maps: "https://maps.google.com/?q=Climec+Correntina+BA",
+    whatsapp: "5577998654077",
+    proximaData: "[dd/mm] · [horário]"
+  },
+  {
+    medico: "gabriel",
+    medicoNome: "Dr. Gabriel Carneiro",
+    especialidade: "urologia",
+    cidade: "Correntina",
+    clinica: "Clínica Pedro Guerra",
+    tipo: "Consultas Urológicas",
+    endereco: "Rua Góes Calmon, 134 - Centro",
+    maps: "https://maps.google.com/?q=Rua+Goes+Calmon+134+Correntina",
+    whatsapp: "5577998455316",
+    proximaData: "[dd/mm] · [horário]"
+  },
+  {
+    medico: "gabriel",
+    medicoNome: "Dr. Gabriel Carneiro",
+    especialidade: "urologia",
+    cidade: "Correntina",
+    clinica: "Clínica Vida e Saúde",
+    tipo: "Consultas Urológicas",
+    endereco: "Rua Joaquim de Souza Rocha, 232 - São Lázaro",
+    maps: "https://maps.google.com/?q=Rua+Joaquim+de+Souza+Rocha+232+Correntina",
+    whatsapp: "5577998444004",
+    proximaData: "[dd/mm] · [horário]"
+  },
+  {
+    medico: "gabriel",
+    medicoNome: "Dr. Gabriel Carneiro",
+    especialidade: "urologia",
+    cidade: "Santa Maria da Vitória",
+    clinica: "Climef",
+    tipo: "Consultas e Cirurgias",
+    endereco: "Rua Teixeira de Freitas, 1029 - Centro",
+    maps: "https://maps.google.com/?q=Rua+Teixeira+de+Freitas+1029+Santa+Maria+da+Vitoria",
+    whatsapp: "5577998413648",
+    proximaData: "[dd/mm] · [horário]"
+  },
+  {
+    medico: "gabriel",
+    medicoNome: "Dr. Gabriel Carneiro",
+    especialidade: "urologia",
+    cidade: "Paratinga",
+    clinica: "Clivale",
+    tipo: "Consultas Urológicas",
+    endereco: "Av. Dr. Manoel Novaes, 453 (Galeria Rio Branco)",
+    maps: "https://maps.google.com/?q=Galeria+Rio+Branco+Paratinga+BA",
+    whatsapp: "5577999201219",
+    proximaData: "[dd/mm] · [horário]"
+  },
+  {
+    medico: "gabriel",
+    medicoNome: "Dr. Gabriel Carneiro",
+    especialidade: "urologia",
+    cidade: "Serra do Ramalho",
+    clinica: "Clínica Vila Rica",
+    tipo: "Consultas Urológicas",
+    endereco: "Av. São Paulo, s/n - Centro",
+    maps: "https://maps.google.com/?q=Clinica+Vila+Rica+Serra+do+Ramalho",
+    whatsapp: "5577991862121",
+    proximaData: "[dd/mm] · [horário]"
+  },
+  {
+    medico: "gabriel",
+    medicoNome: "Dr. Gabriel Carneiro",
+    especialidade: "urologia",
+    cidade: "Riacho de Santana",
+    clinica: "Clínica Vida",
+    tipo: "Consultas Urológicas",
+    endereco: "Rua Godofredo Guedes, 351 - Centro",
+    maps: "https://maps.google.com/?q=Rua+Godofredo+Guedes+351+Riacho+de+Santana",
+    whatsapp: "5577999515049",
+    proximaData: "[dd/mm] · [horário]"
+  },
+  {
+    medico: "gabriel",
+    medicoNome: "Dr. Gabriel Carneiro",
+    especialidade: "urologia",
+    cidade: "Cocos",
+    clinica: "Climef",
+    tipo: "Consultas Urológicas",
+    endereco: "Cocos - BA",
+    maps: "https://maps.google.com/?q=Climef+Cocos+BA",
+    whatsapp: "5577991538953",
+    proximaData: "[dd/mm] · [horário]"
+  },
+  {
+    medico: "gabriel",
+    medicoNome: "Dr. Gabriel Carneiro",
+    especialidade: "urologia",
+    cidade: "Santana",
+    clinica: "Centro Médico Cárdenas Marim",
+    tipo: "Consultas Urológicas",
+    endereco: "Santana - BA",
+    maps: "https://maps.google.com/?q=Centro+Medico+Cardenas+Marim+Santana+BA",
+    whatsapp: "5577998049628",
+    proximaData: "[dd/mm] · [horário]"
+  },
+  {
+    medico: "gabriel",
+    medicoNome: "Dr. Gabriel Carneiro",
+    especialidade: "urologia",
+    cidade: "Serra Dourada",
+    clinica: "Clínica Vilas Boas",
+    tipo: "Consultas Urológicas",
+    endereco: "Serra Dourada - BA",
+    maps: "https://maps.google.com/?q=Clinica+Vilas+Boas+Serra+Dourada+BA",
+    whatsapp: "5577998049628",
+    proximaData: "[dd/mm] · [horário]"
+  },
+  {
+    medico: "gabriel",
+    medicoNome: "Dr. Gabriel Carneiro",
+    especialidade: "urologia",
+    cidade: "Macaúbas",
+    clinica: "Laboratório Pesquisa",
+    tipo: "Consultas Periódicas",
+    endereco: "Rua Dr. Manoel Vitorino, 400 - Centro",
+    maps: "https://maps.google.com/?q=Laboratorio+Pesquisa+Macaubas+BA",
+    whatsapp: "5577999999495",
+    proximaData: "[dd/mm] · [horário]"
+  },
+  {
+    medico: "gabriel",
+    medicoNome: "Dr. Gabriel Carneiro",
+    especialidade: "urologia",
+    cidade: "Botuporã",
+    clinica: "Laboratório MedLab",
+    tipo: "Consultas Periódicas",
+    endereco: "Avenida Mendonça, 45 - Centro",
+    maps: "https://maps.google.com/?q=MedLab+Botupora+BA",
+    whatsapp: "5577991713384",
+    proximaData: "[dd/mm] · [horário]"
+  },
+  {
+    medico: "gabriel",
+    medicoNome: "Dr. Gabriel Carneiro",
+    especialidade: "urologia",
+    cidade: "Caetité",
+    clinica: "Fundação Hospital Senhora Santana",
+    tipo: "Cirurgias Urológicas",
+    endereco: "Praça Senhora Santana - Caetité - BA",
+    maps: "https://maps.google.com/?q=Fundacao+Hospitalar+Senhora+Santana+Caetite",
+    whatsapp: "5577999418816",
+    proximaData: "Após consulta"
+  },
+
+  // Dra. Narcisa (Pediatria)
+  {
+    medico: "narcisa",
+    medicoNome: "Dra. Narcisa Malheiro",
+    especialidade: "pediatria",
+    cidade: "Bom Jesus da Lapa",
+    clinica: "Vila Rica Kids",
+    tipo: "Pediatria e Puericultura",
+    endereco: "Av. Dr. Manoel Novaes, 948 - Centro",
+    maps: "https://maps.google.com/?q=Clinica+Vila+Rica+Bom+Jesus+da+Lapa",
+    whatsapp: "5577981113178",
+    proximaData: "[dd/mm] · [horário]"
+  },
+  {
+    medico: "narcisa",
+    medicoNome: "Dra. Narcisa Malheiro",
+    especialidade: "pediatria",
+    cidade: "Bom Jesus da Lapa",
+    clinica: "Odontomed",
+    tipo: "Consultas Pediátricas",
+    endereco: "Centro, Bom Jesus da Lapa - BA",
+    maps: "https://maps.google.com/?q=Odontomed+Bom+Jesus+da+Lapa",
+    whatsapp: "5577999110210",
+    proximaData: "[dd/mm] · [horário]"
+  },
+  {
+    medico: "narcisa",
+    medicoNome: "Dra. Narcisa Malheiro",
+    especialidade: "pediatria",
+    cidade: "Bom Jesus da Lapa",
+    clinica: "Cemed",
+    tipo: "Consultas Pediátricas",
+    endereco: "Rua Santa Luzia - Centro",
+    maps: "https://maps.google.com/?q=Cemed+Bom+Jesus+da+Lapa",
+    whatsapp: "5577991996264",
+    proximaData: "[dd/mm] · [horário]"
+  },
+  {
+    medico: "narcisa",
+    medicoNome: "Dra. Narcisa Malheiro",
+    especialidade: "pediatria",
+    cidade: "Paratinga",
+    clinica: "Clivale",
+    tipo: "Consultas Pediátricas",
+    endereco: "Av. Dr. Manoel Novaes, 453 (Galeria Rio Branco)",
+    maps: "https://maps.google.com/?q=Galeria+Rio+Branco+Paratinga+BA",
+    whatsapp: "5577999201219",
+    proximaData: "[dd/mm] · [horário]"
+  }
+];
+
+let selectedSpec = "todos";
+let selectedCity = "todas";
+
+const allCities = ["todas", ...Array.from(new Set(LOCAIS_DATA.map(l => l.cidade)))];
+
+function renderChips() {
+  const container = document.getElementById("city-chip-list");
+  container.innerHTML = "";
+
+  allCities.forEach(city => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = `chip-btn ${city === selectedCity ? 'selected' : ''}`;
+    btn.textContent = city === "todas" ? "Todas as Cidades" : city;
+    btn.addEventListener("click", () => {
+      selectedCity = city;
+      renderChips();
+      renderDeck();
+    });
+    container.appendChild(btn);
+  });
+}
+
+document.querySelectorAll(".spec-toggle-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".spec-toggle-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    selectedSpec = btn.dataset.spec;
+    renderDeck();
+  });
+});
+
+function renderDeck() {
+  const container = document.getElementById("clinics-grid-container");
+  const indicator = document.getElementById("deck-count-indicator");
+  const emptyAlert = document.getElementById("deck-empty-alert");
+
+  const filtered = LOCAIS_DATA.filter(loc => {
+    const matchSpec = selectedSpec === "todos" || loc.especialidade === selectedSpec;
+    const matchCity = selectedCity === "todas" || loc.cidade === selectedCity;
+    return matchSpec && matchCity;
+  });
+
+  indicator.textContent = `Exibindo ${filtered.length} ${filtered.length === 1 ? 'local de atendimento' : 'locais de atendimento'}`;
+  container.innerHTML = "";
+
+  if (filtered.length === 0) {
+    emptyAlert.style.display = "block";
+    return;
+  }
+  emptyAlert.style.display = "none";
+
+  filtered.forEach(loc => {
+    const isUro = loc.especialidade === "urologia";
+    const bandClass = isUro ? "urologia" : "pediatria";
+    const specTitle = isUro ? "Urologia · " + loc.medicoNome : "Pediatria · " + loc.medicoNome;
+
+    const waText = encodeURIComponent(`Olá! Quero agendar uma consulta com ${loc.medicoNome} na clínica ${loc.clinica} (${loc.cidade}).`);
+    const waUrl = `https://wa.me/${loc.whatsapp}?text=${waText}`;
+
+    const card = document.createElement("article");
+    card.className = "clinic-unit-card";
+    card.innerHTML = `
+      <div class="unit-card-band ${bandClass}">
+        <span>${specTitle}</span>
+        <span style="font-size: 11px; font-weight: 500; opacity: 0.9;">${loc.tipo}</span>
+      </div>
+      <div class="unit-card-body">
+        <div>
+          <h4 class="unit-clinic-title">${loc.clinica}</h4>
+          <div class="unit-address">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"></path>
+              <circle cx="12" cy="10" r="2.5"></circle>
+            </svg>
+            <span>${loc.endereco}</span>
+          </div>
+        </div>
+
+        <div class="unit-schedule-alert">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+          <span><strong>Próxima data:</strong> ${loc.proximaData}</span>
+        </div>
+
+        <div class="unit-card-actions">
+          <a href="${loc.maps}" target="_blank" rel="noopener" class="btn-unit-maps">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 11l18-8-8 18-2-8z"></path>
+            </svg>
+            Como chegar
+          </a>
+          <a href="${waUrl}" target="_blank" rel="noopener" class="btn-unit-wa">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+            Agendar
+          </a>
+        </div>
+      </div>
+    `;
+    container.appendChild(card);
+  });
+}
+
+// --- Modal de Agendamento por Cidade ---
+function openBookingModal(city = null) {
+  const modal = document.getElementById("booking-modal");
+  modal.classList.add("open");
+  document.body.style.overflow = "hidden";
+  if (city) {
+    selectModalCity(city);
+  } else {
+    showModalCities();
+  }
+}
+
+function closeBookingModal() {
+  const modal = document.getElementById("booking-modal");
+  modal.classList.remove("open");
+  document.body.style.overflow = "";
+}
+
+// Fechar ao clicar fora
+document.addEventListener("click", (e) => {
+  const modal = document.getElementById("booking-modal");
+  if (e.target === modal) {
+    closeBookingModal();
+  }
+});
+
+// Fechar com tecla ESC
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    closeBookingModal();
+  }
+});
+
+function showModalCities() {
+  document.getElementById("modal-view-cities").style.display = "block";
+  document.getElementById("modal-view-clinics").style.display = "none";
+
+  const container = document.getElementById("modal-cities-container");
+  container.innerHTML = "";
+
+  // Todas as cidades únicas
+  const citiesList = Array.from(new Set(LOCAIS_DATA.map(l => l.cidade)));
+
+  citiesList.forEach(city => {
+    const clinicsInCity = LOCAIS_DATA.filter(l => l.cidade === city);
+    const count = clinicsInCity.length;
+
+    const card = document.createElement("button");
+    card.type = "button";
+    card.className = "modal-city-card";
+    card.innerHTML = `
+      <div class="modal-city-name">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" style="color: var(--primary); flex-shrink: 0;">
+          <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"></path>
+          <circle cx="12" cy="10" r="2.5"></circle>
+        </svg>
+        <span>${city}</span>
+      </div>
+      <span class="modal-city-badge">${count} ${count === 1 ? 'clínica' : 'clínicas'}</span>
+    `;
+    card.addEventListener("click", () => {
+      selectModalCity(city);
+    });
+    container.appendChild(card);
+  });
+}
+
+function selectModalCity(cityName) {
+  document.getElementById("modal-view-cities").style.display = "none";
+  document.getElementById("modal-view-clinics").style.display = "block";
+  document.getElementById("modal-selected-city-title").textContent = cityName;
+
+  const container = document.getElementById("modal-clinics-container");
+  container.innerHTML = "";
+
+  const clinics = LOCAIS_DATA.filter(l => l.cidade === cityName);
+
+  clinics.forEach(item => {
+    const isUro = item.especialidade === "urologia";
+    const tagClass = isUro ? "urologia" : "pediatria";
+    const tagLabel = isUro ? "Urologia · " + item.medicoNome : "Pediatria · " + item.medicoNome;
+
+    const waText = encodeURIComponent(`Olá! Gostaria de agendar uma consulta com ${item.medicoNome} na clínica ${item.clinica} em ${item.cidade}.`);
+    const waUrl = `https://wa.me/${item.whatsapp}?text=${waText}`;
+
+    const box = document.createElement("div");
+    box.className = "modal-clinic-box";
+    box.innerHTML = `
+      <div class="modal-clinic-box-header">
+        <div>
+          <h4 class="modal-clinic-title">${item.clinica}</h4>
+          <span style="font-size: 13px; color: var(--text-muted);">${item.endereco}</span>
+        </div>
+        <span class="modal-doc-tag ${tagClass}">${tagLabel}</span>
+      </div>
+
+      <div style="font-size: 13px; color: var(--text-muted); background: var(--bg-surface); padding: 8px 12px; border-radius: 8px; display: flex; align-items: center; gap: 6px;">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+        <span><strong>Próximo atendimento:</strong> ${item.proximaData} (${item.tipo})</span>
+      </div>
+
+      <a href="${waUrl}" target="_blank" rel="noopener" class="btn-modal-wa">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+        </svg>
+        Abrir WhatsApp da Clínica para Agendar
+      </a>
+    `;
+    container.appendChild(box);
+  });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  renderChips();
+  renderDeck();
+});
+</script>
+
+</body>
+</html>

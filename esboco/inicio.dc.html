@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Uroped — onde e quando atendemos</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:Inter,system-ui,sans-serif;color:#13262E}
+a{color:#0B5563}a:hover{color:#083F4A}
+</style>
+</helmet>
+<div style="width: 390px; min-height: 1900px; box-sizing: border-box; background: #FFFFFF; display: flex; flex-direction: column; font-family: Inter, system-ui, sans-serif; color: #13262E">
+
+  <header style="display: flex; align-items: center; justify-content: space-between; padding: 16px 20px">
+    <div style="font-family: Manrope, sans-serif; font-weight: 800; font-size: 22px; letter-spacing: 0.04em; color: #0B5563">UROPED</div>
+    <a href="https://wa.me/[NUMERO]" aria-label="WhatsApp" style="display: flex; width: 44px; height: 44px; align-items: center; justify-content: center; border-radius: 22px; background: #E6F3EC; color: #17703D">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19z"></path></svg>
+    </a>
+  </header>
+
+  <section style="padding: 8px 20px 20px; display: flex; flex-direction: column; gap: 10px">
+    <h1 style="margin: 0; font-family: Manrope, sans-serif; font-weight: 800; font-size: 30px; line-height: 1.12">Onde e quando atendemos</h1>
+    <p style="margin: 0; font-size: 15px; line-height: 1.5; color: #4A5C63">Urologia com o Dr. Gabriel e Pediatria com a Dra. Narcisa, em Bom Jesus da Lapa e região.</p>
+  </section>
+
+  <section style="padding: 0 20px; display: flex; flex-direction: column; gap: 12px">
+    <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #4A5C63">1. Especialidade</div>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px">
+      <sc-for list="{{specs}}" as="s" hint-placeholder-count="3">
+        <button type="button" onClick="{{s.pick}}" style="{{s.style}}">{{s.label}}</button>
+      </sc-for>
+    </div>
+    <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #4A5C63; margin-top: 8px">2. Sua cidade</div>
+    <div style="display: flex; gap: 8px; flex-wrap: wrap">
+      <sc-for list="{{chips}}" as="c" hint-placeholder-count="12">
+        <button type="button" onClick="{{c.pick}}" style="{{c.style}}">{{c.label}}</button>
+      </sc-for>
+    </div>
+  </section>
+
+  <section style="padding: 28px 20px 0; display: flex; flex-direction: column; gap: 12px">
+    <div style="display: flex; align-items: baseline; justify-content: space-between">
+      <h2 style="margin: 0; font-family: Manrope, sans-serif; font-weight: 800; font-size: 22px">{{city}}</h2>
+      <div style="font-size: 13px; color: #4A5C63">{{count}}</div>
+    </div>
+
+    <sc-for list="{{results}}" as="r" hint-placeholder-count="4">
+      <article style="border-radius: 18px; border: 1px solid #E3EBEC; overflow: hidden; display: flex; flex-direction: column">
+        <div style="{{r.band}}">{{r.doctor}}</div>
+        <div style="padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 12px">
+          <div style="display: flex; flex-direction: column; gap: 4px">
+            <div style="font-family: Manrope, sans-serif; font-weight: 700; font-size: 18px">{{r.clinic}}</div>
+            <div style="display: flex; gap: 6px; align-items: flex-start; font-size: 14px; color: #4A5C63">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink: 0; margin-top: 2px" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>
+              <span>[endereço], {{r.city}}</span>
+            </div>
+          </div>
+          <div style="display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-radius: 12px; background: #F3F6F6">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0B5563" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>
+            <div style="font-size: 14px"><span style="font-weight: 600">Próxima data:</span> [dd/mm] · [horário]</div>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px">
+            <a href="{{r.maps}}" style="height: 46px; border-radius: 23px; border: 1px solid #CFDADC; color: #13262E; display: flex; align-items: center; justify-content: center; gap: 6px; font-size: 14px; font-weight: 600; text-decoration: none">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 11l18-8-8 18-2-8z"></path></svg>
+              Como chegar
+            </a>
+            <a href="https://wa.me/[NUMERO]" style="height: 46px; border-radius: 23px; background: #1F8A4C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; gap: 6px; font-size: 14px; font-weight: 600; text-decoration: none">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19z"></path></svg>
+              Agendar
+            </a>
+          </div>
+        </div>
+      </article>
+    </sc-for>
+
+    <sc-if value="{{empty}}" hint-placeholder-val="{{ false }}">
+      <div style="padding: 18px; border-radius: 16px; background: #F3F6F6; font-size: 14px; line-height: 1.5; color: #4A5C63">Essa especialidade ainda não atende nesta cidade. Escolha outra cidade ou fale conosco pelo WhatsApp.</div>
+    </sc-if>
+  </section>
+
+  <section style="padding: 32px 20px 0; display: flex; flex-direction: column; gap: 12px">
+    <h2 style="margin: 0; font-family: Manrope, sans-serif; font-weight: 800; font-size: 22px">Mapa dos atendimentos</h2>
+    <div style="height: 220px; border-radius: 18px; background: #E4ECE9; display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 24px; font-size: 13px; color: #4A5C63">[mapa da região com um ponto por clínica — azul: urologia, coral: pediatria]</div>
+  </section>
+
+  <section style="padding: 32px 20px 0; display: flex; flex-direction: column; gap: 12px">
+    <h2 style="margin: 0; font-family: Manrope, sans-serif; font-weight: 800; font-size: 22px">Conheça os médicos</h2>
+    <a href="Gabriel.dc.html" style="display: flex; gap: 14px; align-items: center; padding: 14px; border-radius: 18px; background: #0B5563; color: #FFFFFF; text-decoration: none">
+      <div style="width: 56px; height: 56px; flex-shrink: 0; border-radius: 28px; background: #2C7280; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #D6E7EA">[foto]</div>
+      <div style="display: flex; flex-direction: column; gap: 2px; flex-grow: 1">
+        <div style="font-family: Manrope, sans-serif; font-weight: 700; font-size: 17px">Dr. Gabriel Carneiro</div>
+        <div style="font-size: 13px; color: #D6E7EA">Urologista · CRM-BA 18.689 · RQE [nº]</div>
+      </div>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg>
+    </a>
+    <a href="#" style="display: flex; gap: 14px; align-items: center; padding: 14px; border-radius: 18px; background: #FBEEE8; color: #13262E; text-decoration: none">
+      <div style="width: 56px; height: 56px; flex-shrink: 0; border-radius: 28px; background: #F3D5C7; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #7A3A22">[foto]</div>
+      <div style="display: flex; flex-direction: column; gap: 2px; flex-grow: 1">
+        <div style="font-family: Manrope, sans-serif; font-weight: 700; font-size: 17px">Dra. Narcisa Malheiro</div>
+        <div style="font-size: 13px; color: #5C4A43">Pediatra · CRM-BA 18.232 · RQE [nº]</div>
+      </div>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg>
+    </a>
+  </section>
+
+  <div style="flex-grow: 1"></div>
+  <footer style="margin-top: 40px; padding: 28px 20px 36px; background: #13262E; color: #C9D6D9; display: flex; flex-direction: column; gap: 10px; font-size: 13px; line-height: 1.5">
+    <div style="font-family: Manrope, sans-serif; font-weight: 800; font-size: 18px; letter-spacing: 0.04em; color: #FFFFFF">UROPED</div>
+    <div>Dr. Gabriel Neves Carneiro · Urologista · CRM-BA 18.689 · RQE [nº]<br>Dra. Narcisa de Oliveira Malheiro · Pediatra · CRM-BA 18.232 · RQE [nº]</div>
+    <div style="color: #8FA3A8">uroped.social.br</div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":1900}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { city: 'Bom Jesus da Lapa', spec: 'todos' };
+  }
+  renderVals() {
+    var G = 'uro', N = 'ped';
+    var all = [
+      { city: 'Bom Jesus da Lapa', clinic: 'Clínica Uroderma', who: G },
+      { city: 'Bom Jesus da Lapa', clinic: 'Clínica Vila Rica', who: G },
+      { city: 'Bom Jesus da Lapa', clinic: 'Vila Rica Kids', who: N },
+      { city: 'Bom Jesus da Lapa', clinic: 'Odontomed', who: N },
+      { city: 'Bom Jesus da Lapa', clinic: 'Semed', who: N },
+      { city: 'Paratinga', clinic: 'Clivale', who: G },
+      { city: 'Paratinga', clinic: 'Clivale', who: N },
+      { city: 'Serra do Ramalho', clinic: 'Clínica Vila Rica', who: G },
+      { city: 'Santa Maria da Vitória', clinic: 'Climef', who: G },
+      { city: 'Cocos', clinic: 'Climef', who: G },
+      { city: 'Santana', clinic: 'Centro Médico [nome]', who: G },
+      { city: 'Serra Dourada', clinic: 'Clínica Vilas Boas', who: G },
+      { city: 'Correntina', clinic: 'Climec', who: G },
+      { city: 'Correntina', clinic: 'Clínica Pedro Guerra', who: G },
+      { city: 'Correntina', clinic: 'Clínica Vida', who: G },
+      { city: 'Riacho de Santana', clinic: 'Clínica Vida', who: G },
+      { city: 'Macaúbas', clinic: 'Laboratório Pesquisa', who: G },
+      { city: 'Botuporã', clinic: 'Clínica MedLab', who: G }
+    ];
+    var cities = ['Bom Jesus da Lapa', 'Paratinga', 'Serra do Ramalho', 'Santa Maria da Vitória', 'Cocos', 'Santana', 'Serra Dourada', 'Correntina', 'Riacho de Santana', 'Macaúbas', 'Botuporã'];
+    var self = this;
+    var city = this.state.city, spec = this.state.spec;
+    var base = 'min-height: 44px; padding: 0 14px; border-radius: 22px; font: 500 14px Inter, system-ui, sans-serif; cursor: pointer; ';
+    var on = 'background: #0B5563; color: #FFFFFF; border: 1px solid #0B5563;';
+    var off = 'background: #FFFFFF; color: #13262E; border: 1px solid #CFDADC;';
+    var specDefs = [{ id: 'todos', label: 'Todos' }, { id: G, label: 'Urologia' }, { id: N, label: 'Pediatria' }];
+    var specs = specDefs.map(function (s) {
+      var sel = s.id === spec;
+      var selStyle = s.id === N ? 'background: #A3401F; color: #FFFFFF; border: 1px solid #A3401F;' : on;
+      return { label: s.label, pick: function () { self.setState({ spec: s.id }); }, style: base + 'padding: 0 6px; ' + (sel ? selStyle : off) };
+    });
+    var chips = cities.map(function (c) {
+      return { label: c, pick: function () { self.setState({ city: c }); }, style: base + (c === city ? on : off) };
+    });
+    var results = all.filter(function (a) {
+      return a.city === city && (spec === 'todos' || a.who === spec);
+    }).map(function (a) {
+      var uro = a.who === G;
+      return {
+        clinic: a.clinic,
+        city: a.city,
+        doctor: uro ? 'Urologia · Dr. Gabriel' : 'Pediatria · Dra. Narcisa',
+        band: 'padding: 8px 16px; font-size: 13px; font-weight: 600; ' + (uro ? 'background: #EEF4F5; color: #0B5563;' : 'background: #FBEEE8; color: #A3401F;'),
+        maps: 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(a.clinic + ' ' + a.city + ' BA')
+      };
+    });
+    return {
+      specs: specs,
+      chips: chips,
+      city: city,
+      results: results,
+      empty: results.length === 0,
+      count: results.length === 1 ? '1 local' : results.length + ' locais'
+    };
+  }
+}
+</script>
+</body>
+</html>

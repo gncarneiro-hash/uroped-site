@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Dr. Gabriel Carneiro — Urologista</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:Inter,system-ui,sans-serif;color:#13262E}
+a{color:#0B5563}a:hover{color:#083F4A}
+</style>
+</helmet>
+<div style="width: 390px; min-height: 3620px; box-sizing: border-box; background: #FFFFFF; display: flex; flex-direction: column; font-family: Inter, system-ui, sans-serif; color: #13262E">
+
+  <header style="display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; border-bottom: 1px solid #E3EBEC">
+    <a href="Main.dc.html" style="display: flex; align-items: center; gap: 6px; font-family: Manrope, sans-serif; font-weight: 800; font-size: 18px; letter-spacing: 0.04em; color: #0B5563; text-decoration: none; min-height: 44px">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 6l-6 6 6 6"></path></svg>
+      UROPED
+    </a>
+    <nav style="display: flex; gap: 14px; font-size: 14px; font-weight: 500">
+      <a href="#agenda" style="color: #13262E; text-decoration: none">Agenda</a>
+      <a href="#valores" style="color: #13262E; text-decoration: none">Valores</a>
+      <a href="#sobre" style="color: #13262E; text-decoration: none">Sobre</a>
+    </nav>
+  </header>
+
+  <section style="padding: 28px 20px 32px; background: #0B5563; color: #FFFFFF; display: flex; flex-direction: column; gap: 16px">
+    <div style="display: flex; gap: 16px; align-items: center">
+      <div style="width: 96px; height: 96px; flex-shrink: 0; border-radius: 48px; background: #2C7280; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #D6E7EA">[sua foto]</div>
+      <div style="display: flex; flex-direction: column; gap: 4px">
+        <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #BFE0E5">Urologista</div>
+        <h1 style="margin: 0; font-family: Manrope, sans-serif; font-weight: 800; font-size: 26px; line-height: 1.15">Dr. Gabriel Neves Carneiro</h1>
+        <div style="font-size: 13px; color: #D6E7EA">CRM-BA 18.689 · RQE [nº]</div>
+      </div>
+    </div>
+    <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #E3F0F2">Consultas, exames e cirurgias urológicas em Bom Jesus da Lapa e região. Membro da Sociedade Brasileira de Urologia.</p>
+    <a href="https://wa.me/[NUMERO]" style="height: 54px; border-radius: 27px; background: #1F8A4C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; gap: 10px; font-weight: 600; font-size: 16px; text-decoration: none">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19z"></path></svg>
+      Agendar pelo WhatsApp
+    </a>
+  </section>
+
+  <section id="agenda" style="padding: 32px 20px 8px; display: flex; flex-direction: column; gap: 14px">
+    <h2 style="margin: 0; font-family: Manrope, sans-serif; font-weight: 800; font-size: 24px">Quando atendo na sua cidade</h2>
+    <p style="margin: 0; font-size: 14px; color: #4A5C63">Escolha a cidade para ver as próximas datas.</p>
+    <div style="display: flex; gap: 8px; flex-wrap: wrap">
+      <sc-for list="{{chips}}" as="c" hint-placeholder-count="11">
+        <button type="button" onClick="{{c.pick}}" style="{{c.style}}">{{c.label}}</button>
+      </sc-for>
+    </div>
+  </section>
+
+  <div style="padding: 8px 20px 0; display: flex; flex-direction: column; gap: 10px">
+    <sc-for list="{{agenda}}" as="a" hint-placeholder-count="5">
+      <div style="display: flex; align-items: center; gap: 12px; padding: 14px; border-radius: 16px; border: 1px solid #E3EBEC">
+        <div style="width: 52px; height: 56px; flex-shrink: 0; border-radius: 12px; background: #EEF4F5; display: flex; flex-direction: column; align-items: center; justify-content: center">
+          <div style="font-size: 11px; color: #4A5C63">[mês]</div>
+          <div style="font-family: Manrope, sans-serif; font-weight: 800; font-size: 18px; color: #0B5563">[dd]</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 2px; flex-grow: 1; min-width: 0">
+          <div style="font-weight: 600; font-size: 15px">{{a.city}}</div>
+          <div style="font-size: 13px; color: #4A5C63">{{a.clinic}} · [horário]</div>
+        </div>
+        <a href="https://wa.me/[NUMERO]" style="flex-shrink: 0; padding: 0 14px; height: 44px; border-radius: 22px; background: #E6F3EC; color: #17703D; display: flex; align-items: center; font-size: 14px; font-weight: 600; text-decoration: none">Agendar</a>
+      </div>
+    </sc-for>
+  </div>
+
+  <section style="margin: 24px 20px 0; padding: 16px; border-radius: 16px; background: #F3F6F6; display: flex; flex-direction: column; gap: 6px">
+    <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #4A5C63">Cirurgias</div>
+    <div style="font-size: 15px; line-height: 1.5">Hospital Senhora Santana, em Caetité, e Climef, em Santa Maria da Vitória. Agendadas após consulta.</div>
+  </section>
+
+  <section id="valores" style="padding: 40px 20px 0; display: flex; flex-direction: column; gap: 14px">
+    <h2 style="margin: 0; font-family: Manrope, sans-serif; font-weight: 800; font-size: 24px">Serviços e valores</h2>
+    <p style="margin: 0; font-size: 14px; color: #4A5C63">Exames e procedimentos realizados na Clínica Uroderma, em Bom Jesus da Lapa.</p>
+    <div style="display: flex; flex-direction: column; border-radius: 16px; border: 1px solid #E3EBEC; overflow: hidden">
+      <sc-for list="{{services}}" as="s" hint-placeholder-count="8">
+        <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 14px 16px; border-bottom: 1px solid #E3EBEC">
+          <div style="font-size: 15px">{{s.name}}</div>
+          <div style="font-size: 15px; font-weight: 600; color: #0B5563; white-space: nowrap">[R$]</div>
+        </div>
+      </sc-for>
+    </div>
+    <div style="padding: 14px 16px; border-radius: 16px; background: #EEF4F5; display: flex; flex-direction: column; gap: 4px">
+      <div style="font-weight: 600; font-size: 15px">Convênios</div>
+      <div style="font-size: 14px; color: #4A5C63">Aceitos somente na Uroderma: [lista de convênios]</div>
+    </div>
+  </section>
+
+  <section style="padding: 40px 20px 0; display: flex; flex-direction: column; gap: 14px">
+    <h2 style="margin: 0; font-family: Manrope, sans-serif; font-weight: 800; font-size: 24px">Onde atendo</h2>
+    <div style="height: 200px; border-radius: 16px; background: #E4ECE9; display: flex; align-items: center; justify-content: center; font-size: 13px; color: #4A5C63">[mapa da região com os pontos]</div>
+    <div style="display: flex; flex-direction: column; gap: 8px">
+      <sc-for list="{{places}}" as="p" hint-placeholder-count="11">
+        <div style="display: flex; gap: 10px; align-items: flex-start">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0B5563" stroke-width="2" style="flex-shrink: 0; margin-top: 2px" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>
+          <div style="font-size: 14px; line-height: 1.45"><span style="font-weight: 600">{{p.city}}</span> — {{p.clinics}}</div>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <section id="sobre" style="padding: 40px 20px 0; display: flex; flex-direction: column; gap: 14px">
+    <h2 style="margin: 0; font-family: Manrope, sans-serif; font-weight: 800; font-size: 24px">Formação</h2>
+    <div style="display: flex; flex-direction: column; gap: 12px; padding-left: 14px; border-left: 2px solid #CFE1E4">
+      <sc-for list="{{education}}" as="e" hint-placeholder-count="6">
+        <div style="display: flex; flex-direction: column; gap: 2px">
+          <div style="font-weight: 600; font-size: 15px">{{e.title}}</div>
+          <div style="font-size: 13px; color: #4A5C63">{{e.place}}</div>
+        </div>
+      </sc-for>
+    </div>
+    <div style="font-size: 14px; color: #4A5C63">Membro da Sociedade Brasileira de Urologia (SBU).</div>
+  </section>
+
+  <section style="padding: 40px 20px 0; display: flex; flex-direction: column; gap: 10px">
+    <h2 style="margin: 0; font-family: Manrope, sans-serif; font-weight: 800; font-size: 24px">Dúvidas frequentes</h2>
+    <sc-for list="{{faq}}" as="q" hint-placeholder-count="4">
+      <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 14px 16px; border-radius: 14px; background: #F3F6F6; font-size: 15px">
+        <span>{{q.q}}</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink: 0" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg>
+      </div>
+    </sc-for>
+  </section>
+
+  <div style="flex-grow: 1"></div>
+  <footer style="margin-top: 40px; padding: 28px 20px 36px; background: #13262E; color: #C9D6D9; display: flex; flex-direction: column; gap: 10px; font-size: 13px; line-height: 1.5">
+    <div style="font-family: Manrope, sans-serif; font-weight: 800; font-size: 18px; letter-spacing: 0.04em; color: #FFFFFF">UROPED</div>
+    <div>Dr. Gabriel Neves Carneiro · Urologista<br>CRM-BA 18.689 · RQE [nº]</div>
+    <div style="display: flex; gap: 16px">
+      <a href="https://instagram.com/" style="color: #FFFFFF">Instagram</a>
+      <a href="https://facebook.com/" style="color: #FFFFFF">Facebook</a>
+      <a href="https://wa.me/[NUMERO]" style="color: #FFFFFF">WhatsApp</a>
+    </div>
+    <div style="color: #8FA3A8">uroped.social.br</div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":3620}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { city: 'Todas' };
+  }
+  renderVals() {
+    var all = [
+      { city: 'Bom Jesus da Lapa', clinic: 'Clínica Uroderma' },
+      { city: 'Bom Jesus da Lapa', clinic: 'Clínica Vila Rica' },
+      { city: 'Paratinga', clinic: 'Clivale' },
+      { city: 'Serra do Ramalho', clinic: 'Clínica Vila Rica' },
+      { city: 'Santa Maria da Vitória', clinic: 'Climef' },
+      { city: 'Cocos', clinic: 'Climef' },
+      { city: 'Santana', clinic: 'Centro Médico [nome]' },
+      { city: 'Serra Dourada', clinic: 'Clínica Vilas Boas' },
+      { city: 'Correntina', clinic: 'Climec' },
+      { city: 'Correntina', clinic: 'Clínica Pedro Guerra' },
+      { city: 'Correntina', clinic: 'Clínica Vida' },
+      { city: 'Riacho de Santana', clinic: 'Clínica Vida' },
+      { city: 'Macaúbas', clinic: 'Laboratório Pesquisa' },
+      { city: 'Botuporã', clinic: 'Clínica MedLab' }
+    ];
+    var cities = ['Todas', 'Bom Jesus da Lapa', 'Paratinga', 'Serra do Ramalho', 'Santa Maria da Vitória', 'Cocos', 'Santana', 'Serra Dourada', 'Correntina', 'Riacho de Santana', 'Macaúbas', 'Botuporã'];
+    var self = this;
+    var sel = this.state.city;
+    var base = 'min-height: 40px; padding: 0 14px; border-radius: 20px; font: 500 14px Inter, system-ui, sans-serif; cursor: pointer; ';
+    var chips = cities.map(function (c) {
+      var on = c === sel;
+      return {
+        label: c,
+        pick: function () { self.setState({ city: c }); },
+        style: base + (on ? 'background: #0B5563; color: #FFFFFF; border: 1px solid #0B5563;' : 'background: #FFFFFF; color: #13262E; border: 1px solid #CFDADC;')
+      };
+    });
+    var agenda = sel === 'Todas' ? all.slice(0, 5) : all.filter(function (a) { return a.city === sel; });
+    return {
+      chips: chips,
+      agenda: agenda,
+      services: [
+        { name: 'Consulta urológica' },
+        { name: 'Ultrassom de rins e vias urinárias' },
+        { name: 'Ultrassom de próstata' },
+        { name: 'Urofluxometria' },
+        { name: 'Estudo urodinâmico' },
+        { name: 'Cistoscopia' },
+        { name: 'Biópsia de próstata' },
+        { name: 'Pequenos procedimentos' }
+      ],
+      places: [
+        { city: 'Bom Jesus da Lapa', clinics: 'Uroderma (principal) e Vila Rica' },
+        { city: 'Paratinga', clinics: 'Clivale' },
+        { city: 'Serra do Ramalho', clinics: 'Vila Rica' },
+        { city: 'Santa Maria da Vitória', clinics: 'Climef (consultas e cirurgias)' },
+        { city: 'Cocos', clinics: 'Climef' },
+        { city: 'Santana', clinics: 'Centro Médico [nome]' },
+        { city: 'Serra Dourada', clinics: 'Clínica Vilas Boas' },
+        { city: 'Correntina', clinics: 'Climec, Pedro Guerra e Clínica Vida' },
+        { city: 'Riacho de Santana', clinics: 'Clínica Vida' },
+        { city: 'Macaúbas', clinics: 'Laboratório Pesquisa' },
+        { city: 'Botuporã', clinics: 'MedLab' },
+        { city: 'Caetité', clinics: 'Hospital Senhora Santana (cirurgias)' }
+      ],
+      education: [
+        { title: 'Medicina', place: 'Universidade Federal da Bahia (UFBA)' },
+        { title: 'Residência em Cirurgia Geral', place: 'Hospital Geral Roberto Santos' },
+        { title: 'Residência em Urologia', place: 'Hospital Geral Roberto Santos' },
+        { title: 'Pós-graduação em Cirurgia Urológica Minimamente Invasiva', place: 'Hospital Sírio-Libanês' },
+        { title: 'Especialização em Cirurgia Ginecológica Minimamente Invasiva', place: 'Hospital Sírio-Libanês' },
+        { title: 'Pós-graduação em Cirurgia Urológica Robótica', place: 'Hospital 9 de Julho' }
+      ],
+      faq: [
+        { q: 'Precisa de preparo para o ultrassom?' },
+        { q: 'Como é feita a biópsia de próstata?' },
+        { q: 'O que é o estudo urodinâmico?' },
+        { q: 'Quais documentos levar na consulta?' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>
