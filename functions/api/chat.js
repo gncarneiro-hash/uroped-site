@@ -35,7 +35,7 @@ async function lerAsset(env, request, caminho, tipo = "json") {
   }
 }
 
-async function montarSistema(env, request) {
+export async function montarSistema(env, request) {
   if (cache.system && Date.now() - cache.at < 10 * 60 * 1000) return cache.system;
 
   const [instrucoes, locais, precos, preparos, faq] = await Promise.all([
