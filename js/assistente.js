@@ -1,11 +1,12 @@
 // Janela de chat do assistente virtual Uroped
 (() => {
   const SUGESTOES = [
+    "Onde o Dr. Gabriel atende perto de mim?",
+    "Quando é o próximo atendimento na minha cidade?",
     "Quanto custa a consulta?",
-    "Quando o Dr. Gabriel atende na minha cidade?",
-    "O que levar na consulta?",
-    "Como é a biópsia de próstata?",
-    "Consulta com a pediatra",
+    "Precisa marcar? Como funciona a ordem de chegada?",
+    "Quero agendar com a Dra. Narcisa (pediatra)",
+    "Faz cirurgia de pedra nos rins, próstata ou vasectomia?",
   ];
   const BOAS_VINDAS =
     "Olá! Sou o assistente virtual da Uroped. Posso informar valores, datas e locais de atendimento do Dr. Gabriel e da Dra. Narcisa, e te encaminhar para agendar. Não sou médico e não faço avaliação de saúde. Em caso de urgência, procure o pronto-socorro.";
@@ -70,9 +71,23 @@
     painel.hidden = !aberto;
     abrir.setAttribute("aria-expanded", String(aberto));
     raiz.classList.toggle("ia-aberto", aberto);
+    // Esconde botões flutuantes do site (ex.: WhatsApp) enquanto o chat está aberto
+    document.querySelectorAll("body *").forEach((el) => {
+      if (raiz.contains(el)) return;
+      if (aberto) {
+        if (getComputedStyle(el).position === "fixed" && el.offsetParent !== undefined) {
+          el.dataset.iaOculto = "1";
+          el.style.visibility = "hidden";
+        }
+      } else if (el.dataset.iaOculto) {
+        delete el.dataset.iaOculto;
+        el.style.visibility = "";
+      }
+    });
     if (aberto) input.focus();
   };
   abrir.addEventListener("click", () => alternar(painel.hidden));
+  window.uropedPerguntar = (t) => { alternar(true); enviar(t); };
   raiz.querySelector(".ia-fechar").addEventListener("click", () => alternar(false));
   document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !painel.hidden) alternar(false); });
 

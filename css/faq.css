@@ -1,0 +1,12 @@
+.faq { padding: 48px 16px; background: #f4f8fb; }
+.faq-caixa { max-width: 760px; margin: 0 auto; }
+.faq h2 { color: #1B3F66; margin: 0 0 20px; text-align: center; }
+.faq details { background: #fff; border: 1px solid #d7e4ee; border-radius: 10px; margin-bottom: 10px; padding: 0 16px; }
+.faq summary { cursor: pointer; padding: 14px 0; font-weight: 600; color: #1B3F66; list-style: none; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; float: right; color: #418BBC; font-weight: 700; }
+.faq details[open] summary::after { content: "–"; }
+.faq details p { margin: 0 0 14px; color: #33475b; line-height: 1.5; }
+.faq-mais { text-align: center; margin-top: 20px; }
+.faq-perguntar { background: #418BBC; color: #fff; border: 0; border-radius: 999px; padding: 10px 18px; font-size: 1rem; cursor: pointer; }
+.faq-perguntar:hover { background: #1B3F66; }

@@ -23,8 +23,12 @@
       "r": "Não. O atendimento é por ordem de chegada. Agendar pelo WhatsApp garante sua vaga no dia."
     },
     {
-      "p": "Que horas começa?",
+      "p": "Que horas começa o atendimento?",
       "r": "Manhã a partir das 8h30 e tarde a partir das 14h. Recomendamos chegar cedo."
+    },
+    {
+      "p": "Quanto custa a consulta?",
+      "r": "Urologia (Dr. Gabriel): R$ 350 na maioria das clínicas, R$ 380 em Cocos e R$ 300 em Macaúbas. Pediatria (Dra. Narcisa): R$ 400 em Bom Jesus da Lapa e R$ 300 em Paratinga. O retorno está incluso."
     },
     {
       "p": "O retorno é pago?",
@@ -39,7 +43,7 @@
       "r": "Convênios apenas na Clínica Uroderma, em Bom Jesus da Lapa."
     },
     {
-      "p": "O que levar?",
+      "p": "O que levar na consulta?",
       "r": "Documento, exames anteriores, receitas ou lista de remédios e, se tiver, o encaminhamento médico. Idosos sempre acompanhados."
     },
     {

@@ -1,8 +1,8 @@
 /* Assistente virtual Uroped — cores da logo */
 .ia-root{--ia-navy:#1B3F66;--ia-mint:#72C2AA;--ia-ink:#13262E;--ia-mute:#4A5C63;--ia-line:#E3EBEC;--ia-bg:#F4F7F7;font-family:Inter,system-ui,sans-serif}
-.ia-abrir{position:fixed;left:16px;bottom:16px;z-index:1200;display:flex;align-items:center;gap:8px;min-height:50px;padding:0 18px;border:0;border-radius:25px;background:var(--ia-navy);color:#fff;font:600 15px Inter,sans-serif;box-shadow:0 6px 20px rgba(19,38,46,.25);cursor:pointer}
+.ia-abrir{position:fixed;left:16px;bottom:16px;z-index:2147483000;display:flex;align-items:center;gap:8px;min-height:50px;padding:0 18px;border:0;border-radius:25px;background:var(--ia-navy);color:#fff;font:600 15px Inter,sans-serif;box-shadow:0 6px 20px rgba(19,38,46,.25);cursor:pointer}
 .ia-abrir:focus-visible,.ia-painel button:focus-visible,.ia-painel input:focus-visible{outline:3px solid #418BBC;outline-offset:2px}
-.ia-painel{position:fixed;left:16px;bottom:78px;z-index:1200;width:min(380px,calc(100vw - 32px));height:min(560px,calc(100vh - 110px));display:flex;flex-direction:column;background:#fff;border:1px solid var(--ia-line);border-radius:20px;box-shadow:0 14px 40px rgba(19,38,46,.22);overflow:hidden}
+.ia-painel{position:fixed;left:16px;bottom:78px;z-index:2147483000;width:min(380px,calc(100vw - 32px));height:min(560px,calc(100vh - 110px));display:flex;flex-direction:column;background:#fff;border:1px solid var(--ia-line);border-radius:20px;box-shadow:0 14px 40px rgba(19,38,46,.22);overflow:hidden}
 .ia-painel[hidden]{display:none}
 .ia-topo{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 14px;background:var(--ia-navy);color:#fff}
 .ia-topo strong{display:block;font:800 16px Manrope,Inter,sans-serif}

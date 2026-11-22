@@ -149,8 +149,8 @@
         "Biópsia de próstata",
         "Pequenos procedimentos"
       ],
-      "endereco": null,
-      "maps": null,
+      "endereco": "Av. Agenor de Oliveira Magalhães, 671 – Amaralina, CEP 47600-000, Bom Jesus da Lapa - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Cl%C3%ADnica%20Uro-Derma%2C%20Av.%20Agenor%20de%20Oliveira%20Magalh%C3%A3es%2C%20671%20%E2%80%93%20Amaralina%2C%20CEP%2047600-000%2C%20Bom%20Jesus%20da%20Lapa%20-%20BA",
       "agenda": {
         "padrao": "Toda terça e quinta",
         "proximas": [
@@ -165,20 +165,23 @@
         "destaque": true
       },
       "whatsapp": {
-        "exibicao": "(77) 9804-9628",
-        "wa": "557798049628",
-        "_obs": "confirmar se falta o 9 inicial: (77) 9 9804-9628"
+        "exibicao": "(77) 99804-9628",
+        "wa": "5577998049628"
       },
       "logo": "logos/clinicas/uroderma-lapa.jpg",
-      "nome_exibicao": "Uro·Derma"
+      "nome_exibicao": "Uro·Derma",
+      "instagram": "@clinicauroderma",
+      "facebook": "facebook.com/ClinicaUroDerma",
+      "telefone_fixo": "(77) 3481-0568",
+      "_conferir": "Um guia antigo cita Rua Santa Luzia, 418 (São Miguel); CNPJ, CNES e seu perfil no AgendarConsulta dão Av. Agenor de Oliveira Magalhães, 671."
     },
     {
       "medico": "gabriel",
       "cidade": "Bom Jesus da Lapa",
       "clinica": "Clínica Vila Rica",
       "tipo": "consulta",
-      "endereco": "Av. Dr. Manoel Novaes, 948 - Centro, Bom Jesus da Lapa - BA, 47600-000",
-      "maps": null,
+      "endereco": "Av. Dr. Manoel Novaes, 948 – Centro, CEP 47600-000, Bom Jesus da Lapa - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Cl%C3%ADnica%20Vila%20Rica%2C%20Av.%20Dr.%20Manoel%20Novaes%2C%20948%20%E2%80%93%20Centro%2C%20CEP%2047600-000%2C%20Bom%20Jesus%20da%20Lapa%20-%20BA",
       "agenda": {
         "padrao": "Segunda-feira, a cada 15 dias",
         "proximas": [
@@ -192,20 +195,22 @@
         "destaque": true
       },
       "whatsapp": {
-        "exibicao": "(77) 9198-0895",
-        "wa": "557791980895",
-        "_obs": "confirmar se falta o 9 inicial"
+        "exibicao": "(77) 99198-0895",
+        "wa": "5577991980895"
       },
       "endereco_fonte": "Doctoralia (a confirmar)",
-      "logo": null
+      "logo": "logos/clinicas/vila-rica.jpg",
+      "instagram": "@vilarica.oficial",
+      "facebook": "facebook.com/clin.vila.rica",
+      "_conferir": "Algumas páginas citam o nº 910. Há também o perfil @clin.vila.rica; confirmar qual é o oficial."
     },
     {
       "medico": "gabriel",
       "cidade": "Paratinga",
       "clinica": "Clivale Med",
       "tipo": "consulta",
-      "endereco": null,
-      "maps": null,
+      "endereco": "Av. Dr. Manoel Novaes, 453 – Galeria Rio Branco, Centro, CEP 47500-000, Paratinga - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Clivale%20Med%2C%20Av.%20Dr.%20Manoel%20Novaes%2C%20453%20%E2%80%93%20Galeria%20Rio%20Branco%2C%20Centro%2C%20CEP%2047500-000%2C%20Paratinga%20-%20BA",
       "agenda": {
         "padrao": "Segunda-feira, a cada 15 dias",
         "proximas": [
@@ -221,23 +226,24 @@
       },
       "logo": "logos/clinicas/clivale-med-paratinga.jpg",
       "whatsapp": {
-        "exibicao": "(77) 9920-1219",
-        "wa": "557799201219",
-        "_obs": "confirmar 9 inicial"
+        "exibicao": "(77) 99920-1219",
+        "wa": "5577999201219"
       },
       "servicos": [
         "Consulta",
         "Cistoscopia flexível",
         "Biópsia de próstata"
-      ]
+      ],
+      "instagram": "@clivalemed",
+      "facebook": "facebook.com/clivalemed"
     },
     {
       "medico": "gabriel",
       "cidade": "Serra do Ramalho",
       "clinica": "Clínica Vila Rica",
       "tipo": "consulta",
-      "endereco": null,
-      "maps": null,
+      "endereco": "Av. São Paulo – Centro, CEP 47630-000, Serra do Ramalho - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Cl%C3%ADnica%20Vila%20Rica%2C%20Av.%20S%C3%A3o%20Paulo%20%E2%80%93%20Centro%2C%20CEP%2047630-000%2C%20Serra%20do%20Ramalho%20-%20BA",
       "agenda": {
         "padrao": "Segunda-feira, a cada 15 dias (mesmo dia da Vila Rica da Lapa)",
         "proximas": [
@@ -250,20 +256,21 @@
         "nivel": "fixo",
         "destaque": true
       },
-      "logo": null,
+      "logo": "logos/clinicas/vila-rica.jpg",
       "whatsapp": {
-        "exibicao": "(77) 9186-2121",
-        "wa": "557791862121",
-        "_obs": "confirmar 9 inicial"
-      }
+        "exibicao": "(77) 99186-2121",
+        "wa": "5577991862121"
+      },
+      "instagram": "@clinvilarica",
+      "_conferir": "Falta o número do imóvel."
     },
     {
       "medico": "gabriel",
       "cidade": "Santa Maria da Vitória",
       "clinica": "Climefi",
       "tipo": "consulta e cirurgia",
-      "endereco": null,
-      "maps": null,
+      "endereco": "Rua Teixeira de Freitas, 1029 – Centro, CEP 47640-212, Santa Maria da Vitória - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Climefi%20%E2%80%93%20Centro%20M%C3%A9dico%2C%20Rua%20Teixeira%20de%20Freitas%2C%201029%20%E2%80%93%20Centro%2C%20CEP%2047640-212%2C%20Santa%20Maria%20da%20Vit%C3%B3ria%20-%20BA",
       "agenda": {
         "padrao": "Sexta-feira à tarde, a cada 15 dias",
         "proximas": [
@@ -278,23 +285,25 @@
       },
       "logo": "logos/clinicas/climefi-santa-maria-da-vitoria.jpg",
       "whatsapp": {
-        "exibicao": "(77) 9841-3648",
-        "wa": "557798413648",
-        "_obs": "confirmar 9 inicial"
+        "exibicao": "(77) 99841-3648",
+        "wa": "5577998413648"
       },
       "servicos": [
         "Consulta",
         "Cistoscopia flexível",
         "Biópsia de próstata"
-      ]
+      ],
+      "facebook": "facebook.com/climeficentromedico",
+      "site": "climefi.com.br",
+      "_conferir": "Site citado em diretório comercial; checar se está no ar."
     },
     {
       "medico": "gabriel",
       "cidade": "Cocos",
-      "clinica": "Climefi",
+      "clinica": "Climefi Especialidades",
       "tipo": "consulta",
-      "endereco": null,
-      "maps": null,
+      "endereco": "Rua Pres. Juscelino Kubitschek – Cocos, Cocos - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Cl%C3%ADnica%20Climefi%20Especialidades%2C%20Rua%20Pres.%20Juscelino%20Kubitschek%20%E2%80%93%20Cocos%2C%20Cocos%20-%20BA",
       "agenda": {
         "padrao": "Sábado, 1 vez por mês",
         "proximas": [
@@ -305,25 +314,26 @@
         "nivel": "mensal",
         "destaque": true
       },
-      "logo": null,
+      "logo": "logos/clinicas/climefi-especialidades-cocos.jpg",
       "whatsapp": {
-        "exibicao": "(77) 9153-8953",
-        "wa": "557791538953",
-        "_obs": "confirmar 9 inicial"
+        "exibicao": "(77) 99153-8953",
+        "wa": "5577991538953"
       },
       "servicos": [
         "Consulta",
         "Cistoscopia flexível",
         "Biópsia de próstata"
-      ]
+      ],
+      "instagram": "@climefiespecialidades",
+      "_conferir": "Falta o número do imóvel."
     },
     {
       "medico": "gabriel",
       "cidade": "Santana",
       "clinica": "Centro Médico Cárdenas Marin",
       "tipo": "consulta",
-      "endereco": null,
-      "maps": null,
+      "endereco": "Rua Presidente Vargas, 63-A – Centro, CEP 47700-000, Santana - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Centro%20M%C3%A9dico%20C%C3%A1rdenas%20Mar%C3%ADn%2C%20Rua%20Presidente%20Vargas%2C%2063-A%20%E2%80%93%20Centro%2C%20CEP%2047700-000%2C%20Santana%20-%20BA",
       "agenda": {
         "padrao": "Quinta ou sexta, cerca de 1 vez por mês (mesmo dia de Serra Dourada)",
         "proximas": [],
@@ -334,22 +344,23 @@
       },
       "logo": "logos/clinicas/cardenas-marin-santana.jpg",
       "whatsapp": {
-        "exibicao": "(77) 8142-8514",
-        "wa": "557781428514",
-        "_obs": "confirmar 9 inicial"
+        "exibicao": "(77) 98142-8514",
+        "wa": "5577981428514",
+        "_obs": "guia lista (77) 8103-5850 — confirmar"
       },
       "servicos": [
         "Consulta",
         "Biópsia de próstata"
-      ]
+      ],
+      "_conferir": "O CNES cita Praça do Mercado; um guia dá Rua Presidente Vargas, 63-A. O telefone do guia difere do WhatsApp que você passou (8142-8514)."
     },
     {
       "medico": "gabriel",
       "cidade": "Serra Dourada",
       "clinica": "Clínica Vilas Boas",
       "tipo": "consulta",
-      "endereco": null,
-      "maps": null,
+      "endereco": "Rua Getúlio Vargas, 336 – Centro, CEP 47740-000, Serra Dourada - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Cl%C3%ADnica%20Vilas%20Boas%20e%20Laborat%C3%B3rio%20Labmed%2C%20Rua%20Get%C3%BAlio%20Vargas%2C%20336%20%E2%80%93%20Centro%2C%20CEP%2047740-000%2C%20Serra%20Dourada%20-%20BA",
       "agenda": {
         "padrao": "Quinta ou sexta, cerca de 1 vez por mês (mesmo dia de Santana)",
         "proximas": [],
@@ -358,16 +369,17 @@
         "nivel": "mensal",
         "destaque": true
       },
-      "logo": null,
+      "logo": "logos/clinicas/vilas-boas-serra-dourada.jpg",
       "whatsapp": {
-        "exibicao": "(77) 9162-1963",
-        "wa": "557791621963",
-        "_obs": "confirmar 9 inicial"
+        "exibicao": "(77) 99162-1963",
+        "wa": "5577991621963"
       },
       "servicos": [
         "Consulta",
         "Biópsia de próstata"
-      ]
+      ],
+      "instagram": "@vilasboasserradourada",
+      "_conferir": "Telefone do diretório difere do WhatsApp que você passou (9162-1963)."
     },
     {
       "medico": "gabriel",
@@ -376,8 +388,8 @@
       "_obs": "nome confirmado: Climec; atendimento confirmado em 21/11",
       "tipo": "consulta",
       "principal_na_cidade": true,
-      "endereco": null,
-      "maps": null,
+      "endereco": "Rua da Chácara, 342 – Centro, CEP 47650-000, Correntina - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Climec%20%E2%80%93%20Cl%C3%ADnica%20M%C3%A9dica%20Correntina%2C%20Rua%20da%20Ch%C3%A1cara%2C%20342%20%E2%80%93%20Centro%2C%20CEP%2047650-000%2C%20Correntina%20-%20BA",
       "agenda": {
         "padrao": "Sexta-feira, a cada 15 dias",
         "proximas": [
@@ -389,25 +401,25 @@
         "nivel": "fixo",
         "destaque": true
       },
-      "logo": null,
+      "logo": "logos/clinicas/climec-correntina.jpg",
       "whatsapp": {
-        "exibicao": "(77) 9865-4077",
-        "wa": "557798654077",
-        "_obs": "confirmar 9 inicial"
+        "exibicao": "(77) 99865-4077",
+        "wa": "5577998654077"
       },
       "servicos": [
         "Consulta",
         "Cistoscopia flexível",
         "Biópsia de próstata"
-      ]
+      ],
+      "_conferir": "Endereço vem de uma página de agendamento de médico, não de fonte oficial."
     },
     {
       "medico": "gabriel",
       "cidade": "Correntina",
-      "clinica": "Clínica Pedro Guerra",
+      "clinica": "Centro Médico Pedro Guerra",
       "tipo": "consulta",
-      "endereco": null,
-      "maps": null,
+      "endereco": "Rua Góes Calmon, 134 – Centro, CEP 47650-000, Correntina - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Centro%20M%C3%A9dico%20Pedro%20Guerra%2C%20Rua%20G%C3%B3es%20Calmon%2C%20134%20%E2%80%93%20Centro%2C%20CEP%2047650-000%2C%20Correntina%20-%20BA",
       "agenda": {
         "padrao": "Sexta-feira, cerca de 1 vez por mês",
         "proximas": [
@@ -419,20 +431,22 @@
         "destaque": true
       },
       "_obs": "atendimento confirmado em 21/11",
-      "logo": null,
+      "logo": "logos/clinicas/pedro-guerra-correntina.jpg",
       "whatsapp": {
-        "exibicao": "(77) 9845-5316",
-        "wa": "557798455316",
-        "_obs": "confirmar 9 inicial"
-      }
+        "exibicao": "(77) 99845-5316",
+        "wa": "5577998455316"
+      },
+      "facebook": "facebook.com/clinicacmpg",
+      "telefone_fixo": "(77) 3488-2180",
+      "_conferir": "Uma página cita o nº 124; CNPJ e seu perfil no AgendarConsulta dão 134."
     },
     {
       "medico": "gabriel",
       "cidade": "Correntina",
       "clinica": "Clínica Vida e Saúde",
       "tipo": "consulta",
-      "endereco": null,
-      "maps": null,
+      "endereco": "Praça Joaquim de Souza Rocha, 232 – Correntina, CEP 47650-000, Correntina - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Cl%C3%ADnica%20M%C3%A9dica%20Vida%20e%20Sa%C3%BAde%2C%20Pra%C3%A7a%20Joaquim%20de%20Souza%20Rocha%2C%20232%20%E2%80%93%20Correntina%2C%20CEP%2047650-000%2C%20Correntina%20-%20BA",
       "agenda": {
         "padrao": "Sexta-feira, cerca de 1 vez por mês (confirmar)",
         "proximas": [],
@@ -442,11 +456,10 @@
         "destaque": true
       },
       "_obs": "atendimento confirmado em 21/11",
-      "logo": null,
+      "logo": "logos/clinicas/vida-e-saude-correntina.jpg",
       "whatsapp": {
-        "exibicao": "(77) 9844-4004",
-        "wa": "557798444004",
-        "_obs": "confirmar 9 inicial"
+        "exibicao": "(77) 99844-4004",
+        "wa": "5577998444004"
       }
     },
     {
@@ -454,8 +467,8 @@
       "cidade": "Riacho de Santana",
       "clinica": "Clínica Vida",
       "tipo": "consulta",
-      "endereco": "Rua Godofredo Guedes, 351 - Centro, Riacho de Santana - BA, 46470-000",
-      "maps": null,
+      "endereco": "Rua Godofredo Guedes, 351 – Térreo, Centro, CEP 46470-000, Riacho de Santana - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Cl%C3%ADnica%20Vida%2C%20Rua%20Godofredo%20Guedes%2C%20351%20%E2%80%93%20T%C3%A9rreo%2C%20Centro%2C%20CEP%2046470-000%2C%20Riacho%20de%20Santana%20-%20BA",
       "agenda": {
         "padrao": "Geralmente quinta-feira, 1 a 2 vezes por mês",
         "proximas": [
@@ -469,22 +482,22 @@
       "endereco_fonte": "cadastro CNES via bula.com.br (a confirmar)",
       "logo": "logos/clinicas/clinica-vida-riacho-de-santana.jpg",
       "whatsapp": {
-        "exibicao": "(77) 9951-5049",
-        "wa": "557799515049",
-        "_obs": "confirmar 9 inicial"
+        "exibicao": "(77) 99951-5049",
+        "wa": "5577999515049"
       },
       "servicos": [
         "Consulta",
         "Cistoscopia flexível"
-      ]
+      ],
+      "telefone_fixo": "(77) 3457-2304"
     },
     {
       "medico": "gabriel",
       "cidade": "Macaúbas",
       "clinica": "Laboratório Pesquisa",
       "tipo": "consulta",
-      "endereco": null,
-      "maps": null,
+      "endereco": "Rua Dr. Manoel Vitorino, 400 – Centro, CEP 46500-000, Macaúbas - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Laborat%C3%B3rio%20Pesquisa%2C%20Rua%20Dr.%20Manoel%20Vitorino%2C%20400%20%E2%80%93%20Centro%2C%20CEP%2046500-000%2C%20Maca%C3%BAbas%20-%20BA",
       "agenda": {
         "padrao": "Eventual, geralmente sábado",
         "proximas": [
@@ -495,25 +508,29 @@
         "exibir_como": "Datas sob consulta"
       },
       "frequencia": "eventual",
-      "logo": null,
+      "logo": "logos/clinicas/laboratorio-pesquisa.jpg",
       "whatsapp": {
-        "exibicao": "(77) 9999-9495",
-        "wa": "557799999495",
-        "_obs": "confirmar 9 inicial"
+        "exibicao": "(77) 99999-9495",
+        "wa": "5577999999495"
       },
       "servicos": [
         "Consulta",
         "Cistoscopia flexível",
         "Biópsia de próstata"
-      ]
+      ],
+      "instagram": "@laboratorio.pesquisa",
+      "facebook": "facebook.com/laboratorio.pesquisa",
+      "site": "laboratoriopesquisa.com.br",
+      "telefone_fixo": "(77) 3473-1485",
+      "horario": "Seg–Sex 6h–17h; Sáb 6h–12h"
     },
     {
       "medico": "gabriel",
       "cidade": "Botuporã",
       "clinica": "Laboratório MedLab",
       "tipo": "consulta",
-      "endereco": null,
-      "maps": null,
+      "endereco": "Av. Mendonça, 45 – Centro, CEP 46570-000, Botuporã - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=MedLab%20%E2%80%93%20Medicina%20e%20An%C3%A1lises%20Cl%C3%ADnicas%2C%20Av.%20Mendon%C3%A7a%2C%2045%20%E2%80%93%20Centro%2C%20CEP%2046570-000%2C%20Botupor%C3%A3%20-%20BA",
       "agenda": {
         "padrao": "Eventual",
         "proximas": [],
@@ -522,20 +539,25 @@
         "exibir_como": "Datas sob consulta"
       },
       "frequencia": "eventual",
-      "logo": null,
+      "logo": "logos/clinicas/medlab-botupora.jpg",
       "whatsapp": {
-        "exibicao": "(77) 8867-0018",
-        "wa": "557788670018",
-        "_obs": "confirmar 9 inicial"
-      }
+        "exibicao": "(77) 98867-0018",
+        "wa": "5577988670018",
+        "_obs": "WhatsApp público da MedLab é (77) 99171-3384 — confirmar qual usar"
+      },
+      "instagram": "@medlabclinica",
+      "telefone_fixo": "(77) 3678-2070",
+      "email": "medlabclinica@yahoo.com.br",
+      "horario": "Seg–Sáb 7h–17h (CNES)",
+      "_conferir": "O WhatsApp público (99171-3384) difere do que você passou (8867-0018)."
     },
     {
       "medico": "gabriel",
       "cidade": "Caetité",
-      "clinica": "Fundação Hospital Senhora Santana",
+      "clinica": "Fundação Hospitalar e Maternidade Senhora Santana",
       "tipo": "cirurgia",
-      "endereco": null,
-      "maps": null,
+      "endereco": "Rua Quintino Bocaiúva, 05 – Centro, CEP 46400-000, Caetité - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Funda%C3%A7%C3%A3o%20Hospitalar%20e%20Maternidade%20Senhora%20Santana%2C%20Rua%20Quintino%20Bocai%C3%BAva%2C%2005%20%E2%80%93%20Centro%2C%20CEP%2046400-000%2C%20Caetit%C3%A9%20-%20BA",
       "agenda": {
         "padrao": "Cirurgias às quartas, a cada 15 dias",
         "proximas": [
@@ -548,22 +570,25 @@
         "nivel": "fixo",
         "destaque": true
       },
-      "logo": null,
+      "logo": "logos/clinicas/hospital-senhora-santana-caetite.jpg",
       "whatsapp": {
-        "exibicao": "(77) 9941-8816",
-        "wa": "557799418816",
-        "_obs": "confirmar 9 inicial"
-      }
+        "exibicao": "(77) 99941-8816",
+        "wa": "5577999418816"
+      },
+      "site": "fundacaosenhorasantana.com.br",
+      "telefone_fixo": "(77) 3454-1811",
+      "email": "ouvidoria@fundacaosenhorasantana.com.br",
+      "nome_exibicao": "Fundação Hospitalar e Maternidade Senhora Santana (Caetité)"
     },
     {
       "medico": "narcisa",
       "cidade": "Bom Jesus da Lapa",
       "clinica": "Vila Rica Kids",
       "tipo": "consulta",
-      "endereco": null,
-      "maps": null,
+      "endereco": "Av. Dr. Manoel Novaes, 788 – Centro, CEP 47600-000 (prédio separado da Vila Rica), Bom Jesus da Lapa - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Vila%20Rica%20Kids%2C%20Av.%20Dr.%20Manoel%20Novaes%2C%20788%20%E2%80%93%20Centro%2C%20CEP%2047600-000%20%28pr%C3%A9dio%20separado%20da%20Vila%20Rica%29%2C%20Bom%20Jesus%20da%20Lapa%20-%20BA",
       "agenda": null,
-      "logo": null,
+      "logo": "logos/clinicas/vila-rica-kids.jpg",
       "whatsapp": {
         "exibicao": "(77) 98111-3178",
         "wa": "5577981113178"
@@ -574,43 +599,49 @@
       "cidade": "Bom Jesus da Lapa",
       "clinica": "Odontomed",
       "tipo": "consulta",
-      "endereco": null,
-      "maps": null,
+      "endereco": "Av. Agenor de Oliveira Magalhães, 663 – Amaralina, CEP 47600-000, Bom Jesus da Lapa - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=OdontoMed%20%E2%80%93%20Odontologia%20e%20Medicina%2C%20Av.%20Agenor%20de%20Oliveira%20Magalh%C3%A3es%2C%20663%20%E2%80%93%20Amaralina%2C%20CEP%2047600-000%2C%20Bom%20Jesus%20da%20Lapa%20-%20BA",
       "agenda": null,
-      "logo": null,
+      "logo": "logos/clinicas/odontomed.jpg",
       "whatsapp": {
         "exibicao": "(77) 99911-0210",
         "wa": "5577999110210"
-      }
+      },
+      "facebook": "facebook.com/clinicaodontomed.com.br",
+      "email": "clinica-odontomed@hotmail.com",
+      "_conferir": "O CNPJ registra o nº 671 (mesmo prédio da Uro-Derma?); a página da clínica usa 663."
     },
     {
       "medico": "narcisa",
       "cidade": "Bom Jesus da Lapa",
       "clinica": "Cemed",
       "tipo": "consulta",
-      "endereco": null,
-      "maps": null,
+      "endereco": "Rua Santa Luzia, 1125 – Centro, CEP 47600-000, Bom Jesus da Lapa - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Cemed%20%E2%80%93%20Centro%20de%20Especialidades%20M%C3%A9dicas%2C%20Rua%20Santa%20Luzia%2C%201125%20%E2%80%93%20Centro%2C%20CEP%2047600-000%2C%20Bom%20Jesus%20da%20Lapa%20-%20BA",
       "agenda": null,
-      "logo": null,
+      "logo": "logos/clinicas/cemed.jpg",
       "whatsapp": {
         "exibicao": "(77) 99199-6264",
         "wa": "5577991996264"
-      }
+      },
+      "telefone_fixo": "(77) 3481-2432",
+      "_conferir": "Um diretório cita Rua Santa Luzia, 95; CNPJ e CNES dão 1125."
     },
     {
       "medico": "narcisa",
       "cidade": "Paratinga",
       "clinica": "Clivale Med",
       "tipo": "consulta",
-      "endereco": null,
-      "maps": null,
+      "endereco": "Av. Dr. Manoel Novaes, 453 – Galeria Rio Branco, Centro, CEP 47500-000, Paratinga - BA",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Clivale%20Med%2C%20Av.%20Dr.%20Manoel%20Novaes%2C%20453%20%E2%80%93%20Galeria%20Rio%20Branco%2C%20Centro%2C%20CEP%2047500-000%2C%20Paratinga%20-%20BA",
       "agenda": null,
       "logo": "logos/clinicas/clivale-med-paratinga.jpg",
       "whatsapp": {
-        "exibicao": "(77) 9920-1219",
-        "wa": "557799201219",
-        "_obs": "confirmar 9 inicial"
-      }
+        "exibicao": "(77) 99920-1219",
+        "wa": "5577999201219"
+      },
+      "instagram": "@clivalemed",
+      "facebook": "facebook.com/clivalemed"
     }
   ],
   "servicos_uroderma": [
