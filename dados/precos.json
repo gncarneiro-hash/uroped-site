@@ -127,7 +127,7 @@
       {
         "cidade": "Macaúbas",
         "clinica": "Laboratório Pesquisa",
-        "consulta": null,
+        "consulta": 300,
         "retorno": {
           "incluso": true,
           "prazo": "geralmente de 30 a 60 dias (a confirmar com a clínica)"

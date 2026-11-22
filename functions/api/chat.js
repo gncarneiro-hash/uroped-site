@@ -134,7 +134,7 @@ async function atender({ request, env }) {
     },
     body: JSON.stringify({
       model: MODEL,
-      max_tokens: 600,
+      max_tokens: 1500,
       system: [{ type: "text", text: system, cache_control: { type: "ephemeral" } }],
       messages: historico,
     }),
@@ -146,7 +146,8 @@ async function atender({ request, env }) {
   }
   const data = await r.json();
   const texto = (data.content || []).filter((c) => c.type === "text").map((c) => c.text).join("\n").trim();
-  return json({ resposta: texto || "Não consegui responder agora. Fale com a clínica pelo WhatsApp." });
+  if (!texto) return json({ resposta: "Não consegui responder agora. Fale com a clínica pelo WhatsApp.", detalhe: "vazio stop=" + data.stop_reason + " tipos=" + (data.content || []).map((c) => c.type).join(",") });
+  return json({ resposta: texto });
 }
 
 export async function onRequest() {
